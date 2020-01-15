@@ -9,7 +9,7 @@ public class BasePage
 {
 	 public static WebDriver driver;
 	
-	//code to access the URL
+	// Code to access the URL
 		public static void Initialization()
 		{
 			CommonMethods.ReadFile("D:/Akshaya/General/Other/Selenium Projects/"
