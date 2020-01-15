@@ -12,9 +12,7 @@ public class BasePage
 	// Code to access the URL
 		public static void Initialization()
 		{
-			CommonMethods.ReadFile("D:/Akshaya/General/Other/Selenium Projects/"
-					+ "Automated Testing With Selenium/Boots_Automation/"
-					+ "src/main/java/com/qa/Config/Configuration.properties");
+			CommonMethods.ReadFile("C:/Users/arahate/git/BOOTS_AUTOMATION/src/main/java/com/qa/Config/Configuration.properties");
 			String browserName = CommonMethods.prop.getProperty("BROWSER");
 			if(browserName.equals("chrome"))
 			{
