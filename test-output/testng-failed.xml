@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [Suite]" parallel="classes">
+  <listeners>
+    <listener class-name="com.qa.ExtentReport.ExtentReportListener"/>
+  </listeners>
+  <test name="Test(failed)" parallel="classes">
+    <classes>
+      <class name="com.qa.Test.ExternalJobSearchTest">
+        <methods>
+          <include name="Search_Jobs_With_ValidData"/>
+          <include name="Search_Jobs_With_InvalidData"/>
+          <include name="SearchJobs_With_SortingOptions"/>
+          <include name="SearchJobs_With_Pagination"/>
+        </methods>
+      </class> <!-- com.qa.Test.ExternalJobSearchTest -->
+      <class name="com.qa.Test.HomePageTest">
+        <methods>
+          <include name="SetUpStart"/>
+          <include name="SetUpEnd"/>
+        </methods>
+      </class> <!-- com.qa.Test.HomePageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
