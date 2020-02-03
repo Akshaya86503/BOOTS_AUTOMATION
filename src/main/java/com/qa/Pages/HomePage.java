@@ -21,6 +21,10 @@ public class HomePage extends BasePage
 	//Search jobs external (i want to work for boots) button
 	@FindBy(xpath="/html/body/nav/ul/li[7]/div/ul/li[1]/a/span")
 	WebElement searchjobsExternalBtn;
+	
+	//Logo
+	@FindBy(xpath="/html/body/nav/div/a/img")
+	WebElement imgLogo;
 
 	//object initialization
 	public HomePage() throws FileNotFoundException 
@@ -29,7 +33,20 @@ public class HomePage extends BasePage
 	}
 
 	//Action
-	//Testcase1 : Validate accept cookies button click functionality
+	//Testcase1:Validate page logo
+	public boolean ValidatePageLogo()
+	{
+		return imgLogo.isDisplayed();
+	}
+	
+	//Testcase2:Validate page title
+	public String ValidatePageTitle()throws InterruptedException
+	{
+		return driver.getTitle();
+	}
+	
+	
+	//Testcase3 : Validate accept cookies button click functionality
 	public void ValidateAcceptCookies() throws InterruptedException, AWTException
 	{
 		Thread.sleep(4000);
@@ -38,7 +55,7 @@ public class HomePage extends BasePage
 		cookieBtn.click();
 	}
 
-	//Testcase2 : Navigate to search jobs external (I want to work for boots) page
+	//Testcase4 : Navigate to search jobs external (I want to work for boots) page
 	public void NavigateToSearchJobsExpternalPage() throws InterruptedException, AWTException
 	{
 		Thread.sleep(4000);
@@ -49,4 +66,6 @@ public class HomePage extends BasePage
 		searchjobsExternalBtn.click();
 		
 	}
+	
+	
 }

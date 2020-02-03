@@ -8,6 +8,8 @@ import com.qa.Base.BasePage;
 import com.qa.Pages.ExternalJobSearch;
 import com.qa.Pages.HomePage;
 
+import junit.framework.Assert;
+
 public class HomePageTest extends BasePage
 {
 	HomePage homepage;
@@ -22,12 +24,26 @@ public class HomePageTest extends BasePage
 	}
 	
 	@Test(priority=1)
+	 public void ValidatePageTitle() throws InterruptedException, AWTException
+	 {
+	 	String Title=homepage.ValidatePageTitle();
+	 	Assert.assertEquals(Title, "Home - Boots Jobs - Career Opportunities with Boots");
+	 }
+	
+	@Test(priority=2)
+	 public void ValidatePageLogo() throws InterruptedException, AWTException
+	 {
+	 	Boolean flag=homepage.ValidatePageLogo();
+	 	Assert.assertTrue(flag);
+	 }
+	
+	@Test(priority=3)
 	 public void Accept_Cookie_Policy() throws InterruptedException, AWTException
 	 {
 	 	homepage.ValidateAcceptCookies();
 	 }
 
-	 @Test(priority=2)
+	 @Test(priority=4)
 	 public void Navigate_To_JobSearch_Link() throws InterruptedException, AWTException
 	 {
 	 	homepage.NavigateToSearchJobsExpternalPage();
