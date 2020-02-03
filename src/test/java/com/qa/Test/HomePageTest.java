@@ -28,6 +28,7 @@ public class HomePageTest extends BasePage
 	 {
 	 	String Title=homepage.ValidatePageTitle();
 	 	Assert.assertEquals(Title, "Home - Boots Jobs - Career Opportunities with Boots");
+	 	System.out.println(Title);
 	 }
 	
 	@Test(priority=2)

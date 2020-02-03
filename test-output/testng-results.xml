@@ -1,51 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="6" passed="6">
+<testng-results skipped="0" failed="0" total="8" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="121171" started-at="2020-01-22T13:31:38Z" finished-at="2020-01-22T13:33:39Z">
+  <suite name="Suite" duration-ms="132073" started-at="2020-02-03T10:20:38Z" finished-at="2020-02-03T10:22:50Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="121171" started-at="2020-01-22T13:31:38Z" finished-at="2020-01-22T13:33:39Z">
+    <test name="Test" duration-ms="132073" started-at="2020-02-03T10:20:38Z" finished-at="2020-02-03T10:22:50Z">
       <class name="com.qa.Test.HomePageTest">
-        <test-method status="PASS" signature="SetUpStart()[pri:0, instance:com.qa.Test.HomePageTest@4dfa3a9d]" name="SetUpStart" is-config="true" duration-ms="14865" started-at="2020-01-22T19:01:38Z" finished-at="2020-01-22T19:01:53Z">
+        <test-method status="PASS" signature="SetUpStart()[pri:0, instance:com.qa.Test.HomePageTest@6eebc39e]" name="SetUpStart" is-config="true" duration-ms="22770" started-at="2020-02-03T15:50:38Z" finished-at="2020-02-03T15:51:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUpStart -->
-        <test-method status="PASS" signature="Accept_Cookie_Policy()[pri:0, instance:com.qa.Test.HomePageTest@4dfa3a9d]" name="Accept_Cookie_Policy" duration-ms="8870" started-at="2020-01-22T19:01:53Z" finished-at="2020-01-22T19:02:02Z">
+        <test-method status="PASS" signature="ValidatePageTitle()[pri:0, instance:com.qa.Test.HomePageTest@6eebc39e]" name="ValidatePageTitle" duration-ms="54" started-at="2020-02-03T15:51:01Z" finished-at="2020-02-03T15:51:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidatePageTitle -->
+        <test-method status="PASS" signature="ValidatePageLogo()[pri:0, instance:com.qa.Test.HomePageTest@6eebc39e]" name="ValidatePageLogo" duration-ms="72" started-at="2020-02-03T15:51:01Z" finished-at="2020-02-03T15:51:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidatePageLogo -->
+        <test-method status="PASS" signature="Accept_Cookie_Policy()[pri:0, instance:com.qa.Test.HomePageTest@6eebc39e]" name="Accept_Cookie_Policy" duration-ms="9443" started-at="2020-02-03T15:51:01Z" finished-at="2020-02-03T15:51:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Accept_Cookie_Policy -->
-        <test-method status="PASS" signature="Navigate_To_JobSearch_Link()[pri:0, instance:com.qa.Test.HomePageTest@4dfa3a9d]" name="Navigate_To_JobSearch_Link" duration-ms="19369" started-at="2020-01-22T19:02:02Z" finished-at="2020-01-22T19:02:21Z">
+        <test-method status="PASS" signature="Navigate_To_JobSearch_Link()[pri:0, instance:com.qa.Test.HomePageTest@6eebc39e]" name="Navigate_To_JobSearch_Link" duration-ms="19116" started-at="2020-02-03T15:51:10Z" finished-at="2020-02-03T15:51:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Navigate_To_JobSearch_Link -->
-        <test-method status="PASS" signature="SetUpEnd()[pri:0, instance:com.qa.Test.HomePageTest@4dfa3a9d]" name="SetUpEnd" is-config="true" duration-ms="0" started-at="2020-01-22T19:02:21Z" finished-at="2020-01-22T19:02:21Z">
+        <test-method status="PASS" signature="SetUpEnd()[pri:0, instance:com.qa.Test.HomePageTest@6eebc39e]" name="SetUpEnd" is-config="true" duration-ms="0" started-at="2020-02-03T15:51:30Z" finished-at="2020-02-03T15:51:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUpEnd -->
       </class> <!-- com.qa.Test.HomePageTest -->
       <class name="com.qa.Test.ExternalJobSearchTest">
-        <test-method status="PASS" signature="SetUpStart()[pri:0, instance:com.qa.Test.ExternalJobSearchTest@4883b407]" name="SetUpStart" is-config="true" duration-ms="3" started-at="2020-01-22T19:02:21Z" finished-at="2020-01-22T19:02:21Z">
+        <test-method status="PASS" signature="SetUpStart()[pri:0, instance:com.qa.Test.ExternalJobSearchTest@4883b407]" name="SetUpStart" is-config="true" duration-ms="3" started-at="2020-02-03T15:51:30Z" finished-at="2020-02-03T15:51:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUpStart -->
-        <test-method status="PASS" signature="Search_Jobs_With_InvalidData()[pri:0, instance:com.qa.Test.ExternalJobSearchTest@4883b407]" name="Search_Jobs_With_InvalidData" duration-ms="16683" started-at="2020-01-22T19:02:21Z" finished-at="2020-01-22T19:02:38Z">
+        <test-method status="PASS" signature="Search_Jobs_With_InvalidData()[pri:0, instance:com.qa.Test.ExternalJobSearchTest@4883b407]" name="Search_Jobs_With_InvalidData" duration-ms="16714" started-at="2020-02-03T15:51:30Z" finished-at="2020-02-03T15:51:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Search_Jobs_With_InvalidData -->
-        <test-method status="PASS" signature="SearchJobs_With_SortingOptions()[pri:0, instance:com.qa.Test.ExternalJobSearchTest@4883b407]" name="SearchJobs_With_SortingOptions" duration-ms="8363" started-at="2020-01-22T19:02:38Z" finished-at="2020-01-22T19:02:46Z">
+        <test-method status="PASS" signature="SearchJobs_With_SortingOptions()[pri:0, instance:com.qa.Test.ExternalJobSearchTest@4883b407]" name="SearchJobs_With_SortingOptions" duration-ms="10652" started-at="2020-02-03T15:51:46Z" finished-at="2020-02-03T15:51:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchJobs_With_SortingOptions -->
-        <test-method status="PASS" signature="SearchJobs_With_Pagination()[pri:0, instance:com.qa.Test.ExternalJobSearchTest@4883b407]" name="SearchJobs_With_Pagination" duration-ms="8342" started-at="2020-01-22T19:02:46Z" finished-at="2020-01-22T19:02:54Z">
+        <test-method status="PASS" signature="SearchJobs_With_Pagination()[pri:0, instance:com.qa.Test.ExternalJobSearchTest@4883b407]" name="SearchJobs_With_Pagination" duration-ms="8329" started-at="2020-02-03T15:51:57Z" finished-at="2020-02-03T15:52:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchJobs_With_Pagination -->
-        <test-method status="PASS" signature="Search_Jobs_With_ValidData()[pri:0, instance:com.qa.Test.ExternalJobSearchTest@4883b407]" name="Search_Jobs_With_ValidData" duration-ms="44642" started-at="2020-01-22T19:02:54Z" finished-at="2020-01-22T19:03:39Z">
+        <test-method status="PASS" signature="Search_Jobs_With_ValidData()[pri:0, instance:com.qa.Test.ExternalJobSearchTest@4883b407]" name="Search_Jobs_With_ValidData" duration-ms="44873" started-at="2020-02-03T15:52:05Z" finished-at="2020-02-03T15:52:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Search_Jobs_With_ValidData -->
-        <test-method status="PASS" signature="SetUpEnd()[pri:0, instance:com.qa.Test.ExternalJobSearchTest@4883b407]" name="SetUpEnd" is-config="true" duration-ms="0" started-at="2020-01-22T19:03:39Z" finished-at="2020-01-22T19:03:39Z">
+        <test-method status="PASS" signature="SetUpEnd()[pri:0, instance:com.qa.Test.ExternalJobSearchTest@4883b407]" name="SetUpEnd" is-config="true" duration-ms="1" started-at="2020-02-03T15:52:50Z" finished-at="2020-02-03T15:52:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUpEnd -->
