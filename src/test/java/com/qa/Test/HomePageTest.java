@@ -5,7 +5,6 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import com.qa.Base.BasePage;
-import com.qa.Pages.ExternalJobSearch;
 import com.qa.Pages.HomePage;
 
 import junit.framework.Assert;
@@ -13,14 +12,12 @@ import junit.framework.Assert;
 public class HomePageTest extends BasePage
 {
 	HomePage homepage;
-	ExternalJobSearch External;
 	
 	@BeforeClass
 	public void SetUpStart() throws FileNotFoundException
 	{
 		Initialization();
 		homepage = new HomePage();
-		External = new ExternalJobSearch();
 	}
 	
 	@Test(priority=1)
@@ -43,6 +40,7 @@ public class HomePageTest extends BasePage
 	 {
 	 	homepage.ValidateAcceptCookies();
 	 }
+	
 
 	 @Test(priority=4)
 	 public void Navigate_To_JobSearch_Link() throws InterruptedException, AWTException

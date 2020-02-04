@@ -110,32 +110,34 @@ JavascriptExecutor jsx = (JavascriptExecutor)driver;
 			
 			//Action
 			//Testcase1 : Search jobs with valid data
-			public void SearchJobsWithValidData() throws InterruptedException, AWTException
+			public void SearchJobsWithValidData(String keyword,String Location,String Distance,String BusArea,String FunArea,String JobType,String ConType,String Reference) throws InterruptedException, AWTException
 			{
 				Thread.sleep(4000);
 				enterkeywordsTextbox.clear();
 				enterjobreferenceTextbox.clear();
 				enterlocationTextbox.clear();
-				enterkeywordsTextbox.sendKeys(CommonMethods.prop.getProperty("Keyword"));
-				enterlocationTextbox.sendKeys(CommonMethods.prop.getProperty("Location"));
+				Thread.sleep(4000);
+				enterkeywordsTextbox.sendKeys(keyword);
+				enterlocationTextbox.sendKeys(Location);
 				selectDistanceDropdown.click();
-		        driver.findElement(By.xpath("//*[@id='jobs_search']/div[1]/div[3]/div/ul/li[text()='"+CommonMethods.prop.getProperty("Distance")+"']")).click();
+				Thread.sleep(4000);
+		        driver.findElement(By.xpath("//*[@id='jobs_search']/div[1]/div[3]/div/ul/li[text()='"+Distance+"']")).click();
 				Thread.sleep(4000);
 				selectbusinessareaDropdown.click();
-		        driver.findElement(By.xpath("//*[@id='jobs_search']/div[2]/div[1]/div/ul/li[text()='"+CommonMethods.prop.getProperty("Businessarea")+"']")).click();
+		        driver.findElement(By.xpath("//*[@id='jobs_search']/div[2]/div[1]/div/ul/li[text()='"+BusArea+"']")).click();
 		        Thread.sleep(4000);
 				selectfunctionareaDropdown.click();
-		        driver.findElement(By.xpath("//*[@id='jobs_search']/div[2]/div[2]/div/ul/li[text()='"+CommonMethods.prop.getProperty("Functionarea")+"']")).click();
+		        driver.findElement(By.xpath("//*[@id='jobs_search']/div[2]/div[2]/div/ul/li[text()='"+FunArea+"']")).click();
 		        Thread.sleep(4000);
 		        selectjobtypeDropdown.click();
 		        Thread.sleep(4000);
-		        driver.findElement(By.xpath("//*[@id='jobs_search']/div[2]/div[4]/div/ul/li[text()='"+CommonMethods.prop.getProperty("Jobtype")+"']")).click();
+		        driver.findElement(By.xpath("//*[@id='jobs_search']/div[2]/div[4]/div/ul/li[text()='"+JobType+"']")).click();
 		        Thread.sleep(4000);
 		        selectcontracttypeDropdown.click();
 		        Thread.sleep(4000);
-		        driver.findElement(By.xpath("//*[@id='jobs_search']/div[2]/div[5]/div/ul/li[text()='"+CommonMethods.prop.getProperty("Contracttype")+"']")).click();
+		        driver.findElement(By.xpath("//*[@id='jobs_search']/div[2]/div[5]/div/ul/li[text()='"+ConType+"']")).click();
 		        Thread.sleep(4000);
-				enterjobreferenceTextbox.sendKeys(CommonMethods.prop.getProperty("Reference"));
+				enterjobreferenceTextbox.sendKeys(Reference);
 		        Thread.sleep(4000);
 	            letssearchCTA.click();
 	            CommonMethods.Mousemove(readmoreCTA);
