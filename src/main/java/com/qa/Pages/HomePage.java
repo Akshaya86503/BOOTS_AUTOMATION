@@ -39,7 +39,7 @@ public class HomePage extends BasePage
 		return imgLogo.isDisplayed();
 	}
 	
-	//Testcase2:Validate page logo
+	//Testcase2:Validate page title
 	public String ValidatePageTitle()throws InterruptedException
 	{
 		return driver.getTitle();

@@ -2,46 +2,46 @@
 <testng-results skipped="0" failed="3" total="8" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="166732" started-at="2020-03-05T19:03:11Z" finished-at="2020-03-05T19:05:58Z">
+  <suite name="Suite" duration-ms="195255" started-at="2020-03-06T07:16:57Z" finished-at="2020-03-06T07:20:12Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="166732" started-at="2020-03-05T19:03:11Z" finished-at="2020-03-05T19:05:58Z">
+    <test name="Test" duration-ms="195255" started-at="2020-03-06T07:16:57Z" finished-at="2020-03-06T07:20:12Z">
       <class name="com.qa.Test.HomePageTest">
-        <test-method status="PASS" signature="SetUpStart()[pri:0, instance:com.qa.Test.HomePageTest@5f341870]" name="SetUpStart" is-config="true" duration-ms="22009" started-at="2020-03-06T00:33:11Z" finished-at="2020-03-06T00:33:33Z">
+        <test-method status="PASS" signature="SetUpStart()[pri:0, instance:com.qa.Test.HomePageTest@5f341870]" name="SetUpStart" is-config="true" duration-ms="41759" started-at="2020-03-06T12:46:57Z" finished-at="2020-03-06T12:47:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUpStart -->
-        <test-method status="PASS" signature="ValidatePageTitle()[pri:0, instance:com.qa.Test.HomePageTest@5f341870]" name="ValidatePageTitle" duration-ms="114" started-at="2020-03-06T00:33:33Z" finished-at="2020-03-06T00:33:33Z">
+        <test-method status="PASS" signature="ValidatePageTitle()[pri:0, instance:com.qa.Test.HomePageTest@5f341870]" name="ValidatePageTitle" duration-ms="60" started-at="2020-03-06T12:47:39Z" finished-at="2020-03-06T12:47:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidatePageTitle -->
-        <test-method status="PASS" signature="ValidatePageLogo()[pri:0, instance:com.qa.Test.HomePageTest@5f341870]" name="ValidatePageLogo" duration-ms="136" started-at="2020-03-06T00:33:33Z" finished-at="2020-03-06T00:33:33Z">
+        <test-method status="PASS" signature="ValidatePageLogo()[pri:0, instance:com.qa.Test.HomePageTest@5f341870]" name="ValidatePageLogo" duration-ms="92" started-at="2020-03-06T12:47:39Z" finished-at="2020-03-06T12:47:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidatePageLogo -->
-        <test-method status="PASS" signature="Accept_Cookie_Policy()[pri:0, instance:com.qa.Test.HomePageTest@5f341870]" name="Accept_Cookie_Policy" duration-ms="10535" started-at="2020-03-06T00:33:33Z" finished-at="2020-03-06T00:33:44Z">
+        <test-method status="PASS" signature="Accept_Cookie_Policy()[pri:0, instance:com.qa.Test.HomePageTest@5f341870]" name="Accept_Cookie_Policy" duration-ms="14656" started-at="2020-03-06T12:47:39Z" finished-at="2020-03-06T12:47:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Accept_Cookie_Policy -->
-        <test-method status="PASS" signature="Navigate_To_JobSearch_Link()[pri:0, instance:com.qa.Test.HomePageTest@5f341870]" name="Navigate_To_JobSearch_Link" duration-ms="20570" started-at="2020-03-06T00:33:44Z" finished-at="2020-03-06T00:34:05Z">
+        <test-method status="PASS" signature="Navigate_To_JobSearch_Link()[pri:0, instance:com.qa.Test.HomePageTest@5f341870]" name="Navigate_To_JobSearch_Link" duration-ms="21967" started-at="2020-03-06T12:47:53Z" finished-at="2020-03-06T12:48:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Navigate_To_JobSearch_Link -->
-        <test-method status="PASS" signature="SetUpEnd()[pri:0, instance:com.qa.Test.HomePageTest@5f341870]" name="SetUpEnd" is-config="true" duration-ms="0" started-at="2020-03-06T00:34:05Z" finished-at="2020-03-06T00:34:05Z">
+        <test-method status="PASS" signature="SetUpEnd()[pri:0, instance:com.qa.Test.HomePageTest@5f341870]" name="SetUpEnd" is-config="true" duration-ms="1" started-at="2020-03-06T12:48:15Z" finished-at="2020-03-06T12:48:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUpEnd -->
       </class> <!-- com.qa.Test.HomePageTest -->
       <class name="com.qa.Test.ExternalJobSearchTest">
-        <test-method status="PASS" signature="SetUpStart()[pri:0, instance:com.qa.Test.ExternalJobSearchTest@204f30ec]" name="SetUpStart" is-config="true" duration-ms="30" started-at="2020-03-06T00:34:05Z" finished-at="2020-03-06T00:34:05Z">
+        <test-method status="PASS" signature="SetUpStart()[pri:0, instance:com.qa.Test.ExternalJobSearchTest@204f30ec]" name="SetUpStart" is-config="true" duration-ms="25" started-at="2020-03-06T12:48:15Z" finished-at="2020-03-06T12:48:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUpStart -->
-        <test-method status="PASS" signature="SearchJobs_With_InvalidData()[pri:0, instance:com.qa.Test.ExternalJobSearchTest@204f30ec]" name="SearchJobs_With_InvalidData" duration-ms="16972" started-at="2020-03-06T00:34:05Z" finished-at="2020-03-06T00:34:22Z">
+        <test-method status="PASS" signature="SearchJobs_With_InvalidData()[pri:0, instance:com.qa.Test.ExternalJobSearchTest@204f30ec]" name="SearchJobs_With_InvalidData" duration-ms="16702" started-at="2020-03-06T12:48:15Z" finished-at="2020-03-06T12:48:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchJobs_With_InvalidData -->
-        <test-method status="FAIL" signature="SearchJobs_With_SortingOptions()[pri:0, instance:com.qa.Test.ExternalJobSearchTest@204f30ec]" name="SearchJobs_With_SortingOptions" duration-ms="21322" started-at="2020-03-06T00:34:22Z" finished-at="2020-03-06T00:34:43Z">
+        <test-method status="FAIL" signature="SearchJobs_With_SortingOptions()[pri:0, instance:com.qa.Test.ExternalJobSearchTest@204f30ec]" name="SearchJobs_With_SortingOptions" duration-ms="22241" started-at="2020-03-06T12:48:32Z" finished-at="2020-03-06T12:48:54Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[4]/main/section/div[2]/div[2]/div[1]/div[1]/ul/li[text()='null']"}
@@ -50,10 +50,10 @@
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
-System info: host: 'SWLL124', ip: '192.168.1.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+System info: host: 'SWLL124', ip: '10.140.168.201', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\arahate\AppData\Local\Temp\scoped_dir468_9314}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=80.0.3987.132, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 686c24e544c790c534543e633c6b16e1
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\arahate\AppData\Local\Temp\scoped_dir10748_25718}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=80.0.3987.132, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ff33355dda576280d00565dd7b3b788a
 *** Element info: {Using=xpath, value=/html/body/div[4]/main/section/div[2]/div[2]/div[1]/div[1]/ul/li[text()='null']}]]>
             </message>
             <full-stacktrace>
@@ -63,10 +63,10 @@ Session ID: 686c24e544c790c534543e633c6b16e1
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
-System info: host: 'SWLL124', ip: '192.168.1.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+System info: host: 'SWLL124', ip: '10.140.168.201', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\arahate\AppData\Local\Temp\scoped_dir468_9314}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=80.0.3987.132, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 686c24e544c790c534543e633c6b16e1
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\arahate\AppData\Local\Temp\scoped_dir10748_25718}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=80.0.3987.132, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ff33355dda576280d00565dd7b3b788a
 *** Element info: {Using=xpath, value=/html/body/div[4]/main/section/div[2]/div[2]/div[1]/div[1]/ul/li[text()='null']}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -116,7 +116,7 @@ Session ID: 686c24e544c790c534543e633c6b16e1
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchJobs_With_SortingOptions -->
-        <test-method status="FAIL" signature="SearchJobs_With_Pagination()[pri:0, instance:com.qa.Test.ExternalJobSearchTest@204f30ec]" name="SearchJobs_With_Pagination" duration-ms="17484" started-at="2020-03-06T00:34:43Z" finished-at="2020-03-06T00:35:00Z">
+        <test-method status="FAIL" signature="SearchJobs_With_Pagination()[pri:0, instance:com.qa.Test.ExternalJobSearchTest@204f30ec]" name="SearchJobs_With_Pagination" duration-ms="17087" started-at="2020-03-06T12:48:54Z" finished-at="2020-03-06T12:49:12Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[4]/main/section/div[2]/div[2]/div[2]/div[1]/ul/li[4]/a/span"}
@@ -125,10 +125,10 @@ Session ID: 686c24e544c790c534543e633c6b16e1
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
-System info: host: 'SWLL124', ip: '192.168.1.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+System info: host: 'SWLL124', ip: '10.140.168.201', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\arahate\AppData\Local\Temp\scoped_dir468_9314}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=80.0.3987.132, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 686c24e544c790c534543e633c6b16e1
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\arahate\AppData\Local\Temp\scoped_dir10748_25718}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=80.0.3987.132, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ff33355dda576280d00565dd7b3b788a
 *** Element info: {Using=xpath, value=/html/body/div[4]/main/section/div[2]/div[2]/div[2]/div[1]/ul/li[4]/a/span}]]>
             </message>
             <full-stacktrace>
@@ -138,10 +138,10 @@ Session ID: 686c24e544c790c534543e633c6b16e1
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
-System info: host: 'SWLL124', ip: '192.168.1.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+System info: host: 'SWLL124', ip: '10.140.168.201', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\arahate\AppData\Local\Temp\scoped_dir468_9314}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=80.0.3987.132, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 686c24e544c790c534543e633c6b16e1
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\arahate\AppData\Local\Temp\scoped_dir10748_25718}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=80.0.3987.132, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ff33355dda576280d00565dd7b3b788a
 *** Element info: {Using=xpath, value=/html/body/div[4]/main/section/div[2]/div[2]/div[2]/div[1]/ul/li[4]/a/span}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -191,7 +191,7 @@ Session ID: 686c24e544c790c534543e633c6b16e1
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchJobs_With_Pagination -->
-        <test-method status="FAIL" signature="Search_Jobs_With_ValidData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.Test.ExternalJobSearchTest@204f30ec]" name="Search_Jobs_With_ValidData" duration-ms="56092" started-at="2020-03-06T00:35:02Z" data-provider="getExcelData" finished-at="2020-03-06T00:35:58Z">
+        <test-method status="FAIL" signature="Search_Jobs_With_ValidData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.Test.ExternalJobSearchTest@204f30ec]" name="Search_Jobs_With_ValidData" duration-ms="56096" started-at="2020-03-06T12:49:16Z" data-provider="getExcelData" finished-at="2020-03-06T12:50:12Z">
           <params>
             <param index="0">
               <value>
@@ -242,10 +242,10 @@ Session ID: 686c24e544c790c534543e633c6b16e1
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
-System info: host: 'SWLL124', ip: '192.168.1.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+System info: host: 'SWLL124', ip: '10.140.168.201', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\arahate\AppData\Local\Temp\scoped_dir468_9314}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=80.0.3987.132, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 686c24e544c790c534543e633c6b16e1
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\arahate\AppData\Local\Temp\scoped_dir10748_25718}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=80.0.3987.132, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ff33355dda576280d00565dd7b3b788a
 *** Element info: {Using=xpath, value=//span[text()='Read more']}]]>
             </message>
             <full-stacktrace>
@@ -255,10 +255,10 @@ Session ID: 686c24e544c790c534543e633c6b16e1
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
-System info: host: 'SWLL124', ip: '192.168.1.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+System info: host: 'SWLL124', ip: '10.140.168.201', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\arahate\AppData\Local\Temp\scoped_dir468_9314}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=80.0.3987.132, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 686c24e544c790c534543e633c6b16e1
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\arahate\AppData\Local\Temp\scoped_dir10748_25718}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=80.0.3987.132, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ff33355dda576280d00565dd7b3b788a
 *** Element info: {Using=xpath, value=//span[text()='Read more']}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -312,7 +312,7 @@ Session ID: 686c24e544c790c534543e633c6b16e1
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Search_Jobs_With_ValidData -->
-        <test-method status="PASS" signature="SetUpEnd()[pri:0, instance:com.qa.Test.ExternalJobSearchTest@204f30ec]" name="SetUpEnd" is-config="true" duration-ms="0" started-at="2020-03-06T00:35:58Z" finished-at="2020-03-06T00:35:58Z">
+        <test-method status="PASS" signature="SetUpEnd()[pri:0, instance:com.qa.Test.ExternalJobSearchTest@204f30ec]" name="SetUpEnd" is-config="true" duration-ms="0" started-at="2020-03-06T12:50:12Z" finished-at="2020-03-06T12:50:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUpEnd -->
