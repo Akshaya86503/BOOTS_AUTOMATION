@@ -8,18 +8,15 @@
     <classes>
       <class name="com.qa.Test.ExternalJobSearchTest">
         <methods>
-          <include name="SearchJobs_With_InvalidData"/>
-          <include name="Search_Jobs_With_ValidData" invocation-numbers="0"/>
           <include name="SetUpStart"/>
           <include name="SetUpEnd"/>
-          <include name="SearchJobs_With_Pagination"/>
+          <include name="SearchJobs_With_SortingOptions"/>
         </methods>
       </class> <!-- com.qa.Test.ExternalJobSearchTest -->
       <class name="com.qa.Test.HomePageTest">
         <methods>
           <include name="SetUpStart"/>
           <include name="SetUpEnd"/>
-          <include name="Navigate_To_JobSearch_Link"/>
         </methods>
       </class> <!-- com.qa.Test.HomePageTest -->
     </classes>

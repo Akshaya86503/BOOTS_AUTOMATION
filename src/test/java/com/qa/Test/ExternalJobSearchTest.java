@@ -30,7 +30,7 @@ public class ExternalJobSearchTest extends BasePage
 	 {
 		 External.SearchJobsWithInvalidData();
 	 }
-     //@Test(priority=6)
+     @Test(priority=6)
 	 public void SearchJobs_With_SortingOptions() throws InterruptedException, AWTException
 	 {
 		 External.ValidateJobsSortingFunctionality();
