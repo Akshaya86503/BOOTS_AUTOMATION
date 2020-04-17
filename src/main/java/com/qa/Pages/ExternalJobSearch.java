@@ -27,12 +27,8 @@ JavascriptExecutor jsx = (JavascriptExecutor)driver;
 			WebElement enterlocationTextbox;
 			
 			//Select distance
-			@FindBy(xpath="//*[@id='jobs_search']/div[1]/div[3]/div/span")
+			@FindBy(xpath="//*[@id='jobs_search']/div[1]/div/span")
 			WebElement selectDistanceDropdown;
-			
-			//select distance dropdown option
-			//@FindBy(xpath="//*[@id='jobs_search']/div[1]/div/ul/li[@data-value='"+check+"']")
-			WebElement selectDistanceDropdownOption;
 			
 			//Enter job reference
 			@FindBy(xpath="//*[@id='job_reference']")
@@ -43,44 +39,24 @@ JavascriptExecutor jsx = (JavascriptExecutor)driver;
 			WebElement filterBtn;
 			
 			//Select business area
-			@FindBy(xpath="//*[@id='jobs_search']/div[2]/div[1]/div/span")
+			@FindBy(xpath="//*[@id='jobs_search']/div[2]/div[1]/span")
 			WebElement selectbusinessareaDropdown;
 			
-			//Select business area dropdown option
-			@FindBy(xpath="//*[@id='jobs_search']/div[2]/div[1]/ul/li[@data-value='Supply Chain']")
-			WebElement selectbusinessareaDropdownOption;
-			
 			//Select function area
-			@FindBy(xpath="//*[@id='jobs_search']/div[2]/div[2]/div/span")
+			@FindBy(xpath="//*[@id='jobs_search']/div[2]/div[2]/span")
 			WebElement selectfunctionareaDropdown;
-			
-			//Select function area dropdown option
-			@FindBy(xpath="//*[@id='jobs_search']/div[2]/div[2]/ul/li[@data-value='Supply and Demand Planning']")
-			WebElement selectfunctionareaDropdownOption;
 			
 			//Select specialism
 			@FindBy(xpath="//*[@id='jobs_search']/div[2]/div[3]/span")
 			WebElement selectspecialismDropdown;
 			
-			//Select specialism dropdown option
-			@FindBy(xpath="//*[@id='jobs_search']/div[2]/div[3]/ul/li[@data-value='Quality']")
-			WebElement selectspecialismDropdownOption;
-			
 			//Select job type
-			@FindBy(xpath="//*[@id='jobs_search']/div[2]/div[4]/div/span")
+			@FindBy(xpath="//*[@id='jobs_search']/div[2]/div[4]/span")
 			WebElement selectjobtypeDropdown;
 			
-			//Select job type dropdown option
-			@FindBy(xpath="//*[@id='jobs_search']/div[2]/div[4]/ul/li[@data-value='Full-time']")
-			WebElement selectjobtypeDropdownOption;
-			
 			//Select contract type
-			@FindBy(xpath="//*[@id='jobs_search']/div[2]/div[5]/div/span")
+			@FindBy(xpath="//*[@id='jobs_search']/div[2]/div[5]/span")
 			WebElement selectcontracttypeDropdown;
-			
-			//Select contract type option
-			@FindBy(xpath="//*[@id='jobs_search']/div[2]/div[5]/ul/li[@data-value='Permanent']")
-			WebElement selectcontracttypeDropdownOption;
 			
 			//Click on "Lets Search CTA"
 			@FindBy(xpath="//*[@id='do-search']/span")
@@ -120,22 +96,22 @@ JavascriptExecutor jsx = (JavascriptExecutor)driver;
 				enterkeywordsTextbox.sendKeys(keyword);
 				enterlocationTextbox.sendKeys(Location);
 				selectDistanceDropdown.click();
+				Thread.sleep(4000);		
+				driver.findElement(By.xpath("//*[@id='jobs_search']/div[1]/div/ul/li[text()='"+Distance+"']")).click();
 				Thread.sleep(4000);
-		        driver.findElement(By.xpath("//*[@id='jobs_search']/div[1]/div[3]/div/ul/li[text()='"+Distance+"']")).click();
-				Thread.sleep(4000);
-				selectbusinessareaDropdown.click();
-		        driver.findElement(By.xpath("//*[@id='jobs_search']/div[2]/div[1]/div/ul/li[text()='"+BusArea+"']")).click();
+				selectbusinessareaDropdown.click();	
+		        driver.findElement(By.xpath("//*[@id='jobs_search']/div[2]/div[1]/ul/li[text()='"+BusArea+"']")).click();
 		        Thread.sleep(4000);
-				selectfunctionareaDropdown.click();
-		        driver.findElement(By.xpath("//*[@id='jobs_search']/div[2]/div[2]/div/ul/li[text()='"+FunArea+"']")).click();
+				selectfunctionareaDropdown.click();			
+		        driver.findElement(By.xpath("//*[@id='jobs_search']/div[2]/div[2]/ul/li[text()='"+FunArea+"']")).click();
 		        Thread.sleep(4000);
 		        selectjobtypeDropdown.click();
 		        Thread.sleep(4000);
-		        driver.findElement(By.xpath("//*[@id='jobs_search']/div[2]/div[4]/div/ul/li[text()='"+JobType+"']")).click();
+		        driver.findElement(By.xpath("//*[@id='jobs_search']/div[2]/div[4]/ul/li[text()='"+JobType+"']")).click();
 		        Thread.sleep(4000);
 		        selectcontracttypeDropdown.click();
-		        Thread.sleep(4000);
-		        driver.findElement(By.xpath("//*[@id='jobs_search']/div[2]/div[5]/div/ul/li[text()='"+ConType+"']")).click();
+		        Thread.sleep(4000);  
+		        driver.findElement(By.xpath("//*[@id='jobs_search']/div[2]/div[5]/ul/li[text()='"+ConType+"']")).click();
 		        Thread.sleep(4000);
 				enterjobreferenceTextbox.sendKeys(Reference);
 		        Thread.sleep(4000);
