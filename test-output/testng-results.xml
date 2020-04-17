@@ -2,50 +2,50 @@
 <testng-results skipped="0" failed="1" total="8" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="151356" started-at="2020-04-17T09:03:20Z" finished-at="2020-04-17T09:05:52Z">
+  <suite name="Suite" duration-ms="155847" started-at="2020-04-17T09:27:51Z" finished-at="2020-04-17T09:30:27Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="151356" started-at="2020-04-17T09:03:20Z" finished-at="2020-04-17T09:05:52Z">
+    <test name="Test" duration-ms="155847" started-at="2020-04-17T09:27:51Z" finished-at="2020-04-17T09:30:27Z">
       <class name="com.qa.Test.HomePageTest">
-        <test-method status="PASS" signature="SetUpStart()[pri:0, instance:com.qa.Test.HomePageTest@4dfa3a9d]" name="SetUpStart" is-config="true" duration-ms="23281" started-at="2020-04-17T14:33:20Z" finished-at="2020-04-17T14:33:44Z">
+        <test-method status="PASS" signature="SetUpStart()[pri:0, instance:com.qa.Test.HomePageTest@4dfa3a9d]" name="SetUpStart" is-config="true" duration-ms="23804" started-at="2020-04-17T14:57:51Z" finished-at="2020-04-17T14:58:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUpStart -->
-        <test-method status="PASS" signature="ValidatePageTitle()[pri:0, instance:com.qa.Test.HomePageTest@4dfa3a9d]" name="ValidatePageTitle" duration-ms="33" started-at="2020-04-17T14:33:44Z" finished-at="2020-04-17T14:33:44Z">
+        <test-method status="PASS" signature="ValidatePageTitle()[pri:0, instance:com.qa.Test.HomePageTest@4dfa3a9d]" name="ValidatePageTitle" duration-ms="25" started-at="2020-04-17T14:58:15Z" finished-at="2020-04-17T14:58:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidatePageTitle -->
-        <test-method status="PASS" signature="ValidatePageLogo()[pri:0, instance:com.qa.Test.HomePageTest@4dfa3a9d]" name="ValidatePageLogo" duration-ms="59" started-at="2020-04-17T14:33:44Z" finished-at="2020-04-17T14:33:44Z">
+        <test-method status="PASS" signature="ValidatePageLogo()[pri:0, instance:com.qa.Test.HomePageTest@4dfa3a9d]" name="ValidatePageLogo" duration-ms="57" started-at="2020-04-17T14:58:15Z" finished-at="2020-04-17T14:58:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidatePageLogo -->
-        <test-method status="PASS" signature="Accept_Cookie_Policy()[pri:0, instance:com.qa.Test.HomePageTest@4dfa3a9d]" name="Accept_Cookie_Policy" duration-ms="10308" started-at="2020-04-17T14:33:44Z" finished-at="2020-04-17T14:33:54Z">
+        <test-method status="PASS" signature="Accept_Cookie_Policy()[pri:0, instance:com.qa.Test.HomePageTest@4dfa3a9d]" name="Accept_Cookie_Policy" duration-ms="9052" started-at="2020-04-17T14:58:15Z" finished-at="2020-04-17T14:58:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Accept_Cookie_Policy -->
-        <test-method status="PASS" signature="Navigate_To_JobSearch_Link()[pri:0, instance:com.qa.Test.HomePageTest@4dfa3a9d]" name="Navigate_To_JobSearch_Link" duration-ms="15957" started-at="2020-04-17T14:33:54Z" finished-at="2020-04-17T14:34:10Z">
+        <test-method status="PASS" signature="Navigate_To_JobSearch_Link()[pri:0, instance:com.qa.Test.HomePageTest@4dfa3a9d]" name="Navigate_To_JobSearch_Link" duration-ms="18968" started-at="2020-04-17T14:58:24Z" finished-at="2020-04-17T14:58:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Navigate_To_JobSearch_Link -->
-        <test-method status="PASS" signature="SetUpEnd()[pri:0, instance:com.qa.Test.HomePageTest@4dfa3a9d]" name="SetUpEnd" is-config="true" duration-ms="1" started-at="2020-04-17T14:34:10Z" finished-at="2020-04-17T14:34:10Z">
+        <test-method status="PASS" signature="SetUpEnd()[pri:0, instance:com.qa.Test.HomePageTest@4dfa3a9d]" name="SetUpEnd" is-config="true" duration-ms="1" started-at="2020-04-17T14:58:43Z" finished-at="2020-04-17T14:58:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUpEnd -->
       </class> <!-- com.qa.Test.HomePageTest -->
       <class name="com.qa.Test.ExternalJobSearchTest">
-        <test-method status="PASS" signature="SetUpStart()[pri:0, instance:com.qa.Test.ExternalJobSearchTest@7d9d1a19]" name="SetUpStart" is-config="true" duration-ms="9" started-at="2020-04-17T14:34:10Z" finished-at="2020-04-17T14:34:10Z">
+        <test-method status="PASS" signature="SetUpStart()[pri:0, instance:com.qa.Test.ExternalJobSearchTest@7d9d1a19]" name="SetUpStart" is-config="true" duration-ms="23" started-at="2020-04-17T14:58:43Z" finished-at="2020-04-17T14:58:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUpStart -->
-        <test-method status="PASS" signature="SearchJobs_With_InvalidData()[pri:0, instance:com.qa.Test.ExternalJobSearchTest@7d9d1a19]" name="SearchJobs_With_InvalidData" duration-ms="16678" started-at="2020-04-17T14:34:10Z" finished-at="2020-04-17T14:34:27Z">
+        <test-method status="PASS" signature="SearchJobs_With_InvalidData()[pri:0, instance:com.qa.Test.ExternalJobSearchTest@7d9d1a19]" name="SearchJobs_With_InvalidData" duration-ms="16932" started-at="2020-04-17T14:58:43Z" finished-at="2020-04-17T14:59:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchJobs_With_InvalidData -->
-        <test-method status="PASS" signature="SearchJobs_With_Pagination()[pri:0, instance:com.qa.Test.ExternalJobSearchTest@7d9d1a19]" name="SearchJobs_With_Pagination" duration-ms="12857" started-at="2020-04-17T14:34:27Z" finished-at="2020-04-17T14:34:40Z">
+        <test-method status="PASS" signature="SearchJobs_With_Pagination()[pri:0, instance:com.qa.Test.ExternalJobSearchTest@7d9d1a19]" name="SearchJobs_With_Pagination" duration-ms="9053" started-at="2020-04-17T14:59:00Z" finished-at="2020-04-17T14:59:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchJobs_With_Pagination -->
-        <test-method status="FAIL" signature="SearchJobs_With_SortingOptions()[pri:0, instance:com.qa.Test.ExternalJobSearchTest@7d9d1a19]" name="SearchJobs_With_SortingOptions" duration-ms="18264" started-at="2020-04-17T14:34:40Z" finished-at="2020-04-17T14:34:58Z">
+        <test-method status="FAIL" signature="SearchJobs_With_SortingOptions()[pri:0, instance:com.qa.Test.ExternalJobSearchTest@7d9d1a19]" name="SearchJobs_With_SortingOptions" duration-ms="22722" started-at="2020-04-17T14:59:09Z" finished-at="2020-04-17T14:59:31Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[4]/main/section/div[2]/div[2]/div[1]/div[1]/ul/li[text()='null']"}
@@ -56,8 +56,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
 System info: host: 'SWLL124', ip: '192.168.1.202', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\arahate\AppData\Local\Temp\scoped_dir20128_26498}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=80.0.3987.163, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: ddd5acbde38060a90199425b01f00205
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\arahate\AppData\Local\Temp\scoped_dir6872_3136}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=80.0.3987.163, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: dd330552b07f5aa099600d00a69bb5a9
 *** Element info: {Using=xpath, value=/html/body/div[4]/main/section/div[2]/div[2]/div[1]/div[1]/ul/li[text()='null']}]]>
             </message>
             <full-stacktrace>
@@ -69,8 +69,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
 System info: host: 'SWLL124', ip: '192.168.1.202', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\arahate\AppData\Local\Temp\scoped_dir20128_26498}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=80.0.3987.163, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: ddd5acbde38060a90199425b01f00205
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\arahate\AppData\Local\Temp\scoped_dir6872_3136}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=80.0.3987.163, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: dd330552b07f5aa099600d00a69bb5a9
 *** Element info: {Using=xpath, value=/html/body/div[4]/main/section/div[2]/div[2]/div[1]/div[1]/ul/li[text()='null']}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -120,7 +120,7 @@ Session ID: ddd5acbde38060a90199425b01f00205
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchJobs_With_SortingOptions -->
-        <test-method status="PASS" signature="Search_Jobs_With_ValidData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.Test.ExternalJobSearchTest@7d9d1a19]" name="Search_Jobs_With_ValidData" duration-ms="52588" started-at="2020-04-17T14:34:59Z" data-provider="getExcelData" finished-at="2020-04-17T14:35:52Z">
+        <test-method status="PASS" signature="Search_Jobs_With_ValidData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.Test.ExternalJobSearchTest@7d9d1a19]" name="Search_Jobs_With_ValidData" duration-ms="53714" started-at="2020-04-17T14:59:33Z" data-provider="getExcelData" finished-at="2020-04-17T15:00:27Z">
           <params>
             <param index="0">
               <value>
@@ -166,7 +166,7 @@ Session ID: ddd5acbde38060a90199425b01f00205
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Search_Jobs_With_ValidData -->
-        <test-method status="PASS" signature="SetUpEnd()[pri:0, instance:com.qa.Test.ExternalJobSearchTest@7d9d1a19]" name="SetUpEnd" is-config="true" duration-ms="1" started-at="2020-04-17T14:35:52Z" finished-at="2020-04-17T14:35:52Z">
+        <test-method status="PASS" signature="SetUpEnd()[pri:0, instance:com.qa.Test.ExternalJobSearchTest@7d9d1a19]" name="SetUpEnd" is-config="true" duration-ms="1" started-at="2020-04-17T15:00:27Z" finished-at="2020-04-17T15:00:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUpEnd -->

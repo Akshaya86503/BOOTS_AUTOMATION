@@ -9,7 +9,7 @@ public class BasePage
 {
 	 public static WebDriver driver;
 	
-	// Code to access the URL
+	//Code to access the URL
 		public static void Initialization()
 		{
 			CommonMethods.ReadFile("C:/Users/arahate/git/BOOTS_AUTOMATION/src/main/java/com/qa/Config/Configuration.properties");
