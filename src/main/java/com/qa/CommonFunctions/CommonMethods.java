@@ -6,6 +6,7 @@ import java.awt.event.KeyEvent;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.util.List;
 import java.util.Properties;
 
 import org.apache.poi.ss.usermodel.DataFormatter;
@@ -13,6 +14,8 @@ import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 
@@ -22,7 +25,7 @@ public class CommonMethods extends BasePage
 {
 	public static Properties prop;
 	public static long PAGE_LOAD_TIMEOUT = 20;
-	public static long IMPLICIT_WAIT = 10;
+	public static long IMPLICIT_WAIT = 4;
 	
 	//Method to read data from properties file
 	public static void ReadFile(String filepath)
@@ -42,6 +45,7 @@ public class CommonMethods extends BasePage
 			e.printStackTrace();
 		}
 		return;
+		
 		
 	}
 	
@@ -89,5 +93,53 @@ public class CommonMethods extends BasePage
 	    }
 	    return data;
 	}
+	
+	//method to iterate through accordion
+	public static void IterateThroughAccordion() throws InterruptedException
+	{	
+		Thread.sleep(4000);
+		List<WebElement> elements = driver.findElements(By.xpath("//div[@class='faq-accordian-question']"));
+		java.util.Iterator<WebElement> i = elements.iterator();
+		while(i.hasNext()) {
+		    WebElement element = i.next();
+		    if (element.isDisplayed()) {
+		      element.click();
+		      Thread.sleep(4000);
+		      element.click();
+		    }
+		}
+	}
+	
+	public static void ScrolledDownWebpage() throws InterruptedException
+	{
+		for (int second = 0;; second++) {
+	        if(second >=60){
+	            break;
+	        }
+	            ((JavascriptExecutor) driver).executeScript("window.scrollBy(0,400)", ""); //y value '400' can be altered
+	            Thread.sleep(3000);
+	}
+	}
+	
+	public static void NavigateToPerticularPageCareerAreas(WebElement path) throws InterruptedException, AWTException
+	{
+		Thread.sleep(4000);
+		CommonMethods.Mousemove(WebElements.buttonAcceptCookies).click();
+		Thread.sleep(4000);
+		CommonMethods.Mousemove(WebElements.menuCareerAreas);
+		Thread.sleep(4000);
+		CommonMethods.Mousemove(path).click();
+	}
+	
+	public static void NavigateToPerticularPage(WebElement path) throws InterruptedException, AWTException
+	{
+		Thread.sleep(4000);
+		CommonMethods.Mousemove(WebElements.buttonAcceptCookies).click();
+		Thread.sleep(4000);
+		CommonMethods.Mousemove(path).click();
+	}
+	
+	
+
 
 }

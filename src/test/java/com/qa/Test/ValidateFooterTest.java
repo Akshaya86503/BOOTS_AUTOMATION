@@ -5,30 +5,34 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import com.qa.Base.BasePage;
-import com.qa.CommonFunctions.CommonMethods;
+import com.qa.CommonFunctions.ValidateFooter;
 import com.qa.CommonFunctions.WebElements;
-import com.qa.Pages.OurStories;
+import com.qa.Pages.HomePage;
 
-public class OurStoriesTest extends BasePage
+public class ValidateFooterTest extends BasePage
 {
-	OurStories storypage;
+	HomePage homepage;
 	WebElements newwebelemets;
 	
 	@BeforeClass
 	public void SetUpStart() throws FileNotFoundException
 	{
 		Initialization();
-		storypage = new OurStories();
+		homepage = new HomePage();
 		newwebelemets = new WebElements();
 	}
 	
 	@Test(priority=1)
-	public void OurStoriesPageTest() throws AWTException, InterruptedException
-	{
-		CommonMethods.NavigateToPerticularPage(WebElements.menuOurStories);
-		Thread.sleep(4000);
-		storypage.ValidateOurStorySection();
-	}
+	 public void ValidateBootsFooterLinksTest() throws InterruptedException, AWTException
+	 {
+	ValidateFooter.validateBootsFooterLinks();
+	 }
+	
+	@Test(priority=2)
+	 public void ValidateBootsFooterSocialMediaLinksTest() throws InterruptedException, AWTException
+	 {
+	ValidateFooter.validateBootsFooterSocialMediaLinks();
+	 }
 	
 	@AfterClass
 	 public void SetUpEnd()

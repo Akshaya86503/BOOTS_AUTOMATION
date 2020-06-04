@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.qa.Test.EarlyCareersTest">
+        <methods>
+          <include name="SetUpEnd"/>
+          <include name="SetUpStart"/>
+          <include name="ValidateTwitIconClickTest"/>
+          <include name="ValidateSingleStorySelectionClickTest"/>
+          <include name="ValidateLatestJobsSectionClickTest"/>
+          <include name="ValidateLatestJobsRolesSectionClickTest"/>
+        </methods>
+      </class> <!-- com.qa.Test.EarlyCareersTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

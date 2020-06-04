@@ -88,11 +88,6 @@ JavascriptExecutor jsx = (JavascriptExecutor)driver;
 			//Testcase1 : Search jobs with valid data
 			public void SearchJobsWithValidData(String keyword,String Location,String Distance,String BusArea,String FunArea,String JobType,String ConType,String Reference) throws InterruptedException, AWTException
 			{
-				Thread.sleep(4000);
-				enterkeywordsTextbox.clear();
-				enterjobreferenceTextbox.clear();
-				enterlocationTextbox.clear();
-				Thread.sleep(4000);
 				enterkeywordsTextbox.sendKeys(keyword);
 				enterlocationTextbox.sendKeys(Location);
 				selectDistanceDropdown.click();
@@ -116,9 +111,6 @@ JavascriptExecutor jsx = (JavascriptExecutor)driver;
 				enterjobreferenceTextbox.sendKeys(Reference);
 		        Thread.sleep(4000);
 	            letssearchCTA.click();
-	            CommonMethods.Mousemove(readmoreCTA);
-	            Thread.sleep(4000);
-	            readmoreCTA.click();
 			}
 			
 			//Testcase2 : Search jobs with invalid data
@@ -140,7 +132,7 @@ JavascriptExecutor jsx = (JavascriptExecutor)driver;
 				Thread.sleep(4000);
 				sortbyDRP.click();
 				Thread.sleep(4000);
-				driver.findElement(By.xpath("/html/body/div[4]/main/section/div[2]/div[2]/div[1]/div[1]/ul/li[text()='"+CommonMethods.prop.getProperty("SortBy")+"']")).click();
+				driver.findElement(By.xpath("/html/body/div[4]/main/section/div[2]/div[2]/div[1]/div[1]/ul/li[2]")).click();
 			}
 			
 			public void ValidateJobsPaginationFunctionality() throws InterruptedException, AWTException

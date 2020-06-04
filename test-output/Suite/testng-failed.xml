@@ -11,14 +11,9 @@
           <include name="SetUpStart"/>
           <include name="SetUpEnd"/>
           <include name="SearchJobs_With_SortingOptions"/>
+          <include name="SearchJobs_With_Pagination"/>
         </methods>
       </class> <!-- com.qa.Test.ExternalJobSearchTest -->
-      <class name="com.qa.Test.HomePageTest">
-        <methods>
-          <include name="SetUpStart"/>
-          <include name="SetUpEnd"/>
-        </methods>
-      </class> <!-- com.qa.Test.HomePageTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
