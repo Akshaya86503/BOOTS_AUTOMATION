@@ -6,14 +6,8 @@
 </listeners>
   <test name="Test">
     <classes>
-    <class name="com.qa.Test.HomePageTest"/>
-     <class name="com.qa.Test.ExternalJobSearchTest"/>
-     <class name="com.qa.Test.PharmacistPageTest"/>
-     <class name="com.qa.Test.EarlyCareersTest"/>
-     <class name="com.qa.Test.OurStoriesTest"/>
-     <class name="com.qa.Test.FAQTest"/>
-     <class name="com.qa.Test.ValidateHeaderTest"/>
-     <class name="com.qa.Test.ValidateFooterTest"/>
+  <class name="com.qa.Test.ValidateHeaderTest"/>
+  <class name="com.qa.Test.ValidateFooterTest"/>
     </classes>
   </test> 
 </suite>
