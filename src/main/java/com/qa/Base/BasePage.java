@@ -20,10 +20,10 @@ public class BasePage
 			if(browserName.equals("chrome"))
 			{
 				ChromeOptions options = new ChromeOptions();
+				options.addArguments("--disable-features=VizDisplayCompositor");
 		        options.addArguments("--incognito");
 				System.setProperty("webdriver.chrome.driver", "D:/Akshaya/General/Other/eclipse/chromedriver_win32/chromedriver.exe");
 				driver = new ChromeDriver(options);
-				
 			}
 			driver.manage().window().maximize();
 			driver.get(CommonMethods.prop.getProperty("URL"));
