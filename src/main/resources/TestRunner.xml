@@ -6,6 +6,7 @@
 </listeners>
   <test name="Test">
     <classes>
+    <class name="com.qa.Test.ValidateHeaderTest"/>
     <class name="com.qa.Test.ValidateFooterTest"/>
     </classes>
   </test> 

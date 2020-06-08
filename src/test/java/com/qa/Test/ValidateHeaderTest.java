@@ -17,7 +17,7 @@ public class ValidateHeaderTest extends BasePage
 	HomePage homepage;
 	WebElements newwebelemets;
 	
-	//@BeforeClass
+	@BeforeClass
 	public void SetUpStart() throws FileNotFoundException
 	{
 		Initialization();
@@ -49,7 +49,7 @@ public class ValidateHeaderTest extends BasePage
 	ValidateHeader.validateBootsSearchJobsButtonClick();
 	}
 	
-	//@AfterClass
+	@AfterClass
 	 public void SetUpEnd()
 	 {
 	 	driver.quit();
