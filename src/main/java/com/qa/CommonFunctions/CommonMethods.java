@@ -25,7 +25,7 @@ public class CommonMethods extends BasePage
 {
 	public static Properties prop;
 	public static long PAGE_LOAD_TIMEOUT = 20;
-	public static long IMPLICIT_WAIT = 4;
+	public static long IMPLICIT_WAIT = 10;
 	
 	//Method to read data from properties file
 	public static void ReadFile(String filepath)
