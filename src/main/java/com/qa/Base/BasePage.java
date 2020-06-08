@@ -1,6 +1,4 @@
 package com.qa.Base;
-import java.util.concurrent.TimeUnit;
-
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -26,7 +24,5 @@ public class BasePage
 			}
 			driver.manage().window().maximize();
 			driver.get(CommonMethods.prop.getProperty("URL"));
-			driver.manage().timeouts().implicitlyWait(CommonMethods.PAGE_LOAD_TIMEOUT,TimeUnit.SECONDS);
-			driver.manage().timeouts().implicitlyWait(CommonMethods.IMPLICIT_WAIT,TimeUnit.SECONDS);
 		}
 }
