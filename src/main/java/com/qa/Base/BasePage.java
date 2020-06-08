@@ -26,7 +26,5 @@ public class BasePage
 			}
 			driver.manage().window().maximize();
 			driver.get(CommonMethods.prop.getProperty("URL"));
-			driver.manage().timeouts().implicitlyWait(CommonMethods.PAGE_LOAD_TIMEOUT,TimeUnit.SECONDS);
-			driver.manage().timeouts().implicitlyWait(CommonMethods.IMPLICIT_WAIT,TimeUnit.SECONDS);
 		}
 }
