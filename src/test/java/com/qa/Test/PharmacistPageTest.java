@@ -32,7 +32,7 @@ public class PharmacistPageTest extends BasePage
 	 return CommonMethods.ExcelRedaer("C:/Users/arahate/git/BOOTS_AUTOMATION/src/main/java/com/qa/TestData/test1.xlsx", "Sheet2");
 	 }
 	
-	@Test(priority=1)
+	@Test(priority=9)
 	public void AllLocationsFunctionalityTest() throws AWTException, InterruptedException
 	{
 	CommonMethods.NavigateToPerticularPageCareerAreas(WebElements.careerPharmacist);
@@ -40,7 +40,7 @@ public class PharmacistPageTest extends BasePage
 	pharmacy.ValidateAllLocationsFunctionality();
 	}
 	
-	@Test(dataProvider = "getExcelData",priority=2)
+	@Test(dataProvider = "getExcelData",priority=10)
 	 public void BookaCallBackFormWithValidDataTest(String FN, String LN, String Email, String Cemail, String Phone, String Cjob, String Prole, String Ploc, String Cbtoday, String Cbtime) throws InterruptedException, AWTException
 	{
 		Thread.sleep(4000);

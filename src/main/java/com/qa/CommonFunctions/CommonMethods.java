@@ -109,7 +109,7 @@ public class CommonMethods extends BasePage
 	{	
 		Thread.sleep(4000);
 		List<WebElement> elements = driver.findElements(By.xpath("//div[@class='faq-accordian-question']"));
-		java.util.Iterator<WebElement> i = elements.listIterator(10);
+		java.util.Iterator<WebElement> i = elements.listIterator(18);
 		while(i.hasNext()) {
 		    WebElement element = i.next();
 		    if (element.isDisplayed()) {

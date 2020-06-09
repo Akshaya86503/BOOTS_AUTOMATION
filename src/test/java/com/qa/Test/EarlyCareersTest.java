@@ -14,7 +14,7 @@ public class EarlyCareersTest extends BasePage
 	EarlyCareers ECarrer;
 	WebElements newwebelemets;
 	
-	//@BeforeClass
+	@BeforeClass
 	public void SetUpStart() throws FileNotFoundException
 	{
 		Initialization();
@@ -22,7 +22,7 @@ public class EarlyCareersTest extends BasePage
 		newwebelemets = new WebElements();
 	}
 	
-	//@Test(priority=9)
+	@Test(priority=17)
 	public void ValidateImageBannerClickTest() throws InterruptedException, AWTException
     {
 		Thread.sleep(4000);
@@ -32,32 +32,32 @@ public class EarlyCareersTest extends BasePage
 		ECarrer.ValidateBannerImageClick();
 	}
 	
-	//@Test(priority=10)
+	@Test(priority=18)
 	public void ValidateLatestJobsSectionClickTest() throws InterruptedException, AWTException
     {
 		ECarrer.ValidateLatestJobsSelection();
     }
 	
-	//@Test(priority=11)
+	@Test(priority=19)
 	public void ValidateLatestJobsRolesSectionClickTest() throws InterruptedException, AWTException
     {
 		
 		ECarrer.ValidateLatestJobRolesSelection();
     }
 	
-	//@Test(priority=12)
+	@Test(priority=20)
 	public void ValidateTwitIconClickTest() throws InterruptedException, AWTException
     {
 		ECarrer.ValidateTwitIconSelection();
     }
 	
-	//@Test(priority=13)
+	@Test(priority=21)
 	public void ValidateSingleStorySelectionClickTest() throws InterruptedException, AWTException
     {
 		ECarrer.ValidateSingleStorySelectionClick();
     }
 	
-	//@AfterClass
+	@AfterClass
 	 public void SetUpEnd()
 	 {
 		 
