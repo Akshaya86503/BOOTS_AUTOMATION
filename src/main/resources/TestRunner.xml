@@ -6,7 +6,7 @@
 </listeners>
   <test name="Test">
     <classes>
-     <class name="com.qa.Test.ValidateFooterTest"/>
+     <class name="com.qa.Test.HomePageTest"/>
     </classes>
   </test> 
 </suite>
