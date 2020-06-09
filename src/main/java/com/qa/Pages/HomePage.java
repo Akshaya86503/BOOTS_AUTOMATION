@@ -16,12 +16,10 @@ public class HomePage extends BasePage
 	{
 		for(int i=2;i<10;i++)
 		{
-		Thread.sleep(4000);
 		driver.findElement(By.xpath("//div[@class='slider-container']/div/span["+i+"]")).click();
 		}
 		Thread.sleep(4000);
 		CommonMethods.Mousemove(WebElements.imgFisrtSlideClick).click();
-		Thread.sleep(4000);
 		CommonMethods.Mousemove(WebElements.buttonViewStory);
 		CommonMethods.NewtabFunction(WebElements.buttonViewStory);
 	}
