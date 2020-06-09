@@ -14,7 +14,7 @@ public class ValidateFooterTest extends BasePage
 	HomePage homepage;
 	WebElements newwebelemets;
 	
-	//@BeforeClass
+	@BeforeClass
 	public void SetUpStart() throws FileNotFoundException
 	{
 		Initialization();
@@ -22,19 +22,19 @@ public class ValidateFooterTest extends BasePage
 		newwebelemets = new WebElements();
 	}
 	
-	//@Test(priority=5)
+	@Test(priority=1)
 	 public void ValidateBootsFooterLinksTest() throws InterruptedException, AWTException
 	 {
 	ValidateFooter.validateBootsFooterLinks();
 	 }
 	
-	//@Test(priority=6)
+	@Test(priority=2)
 	 public void ValidateBootsFooterSocialMediaLinksTest() throws InterruptedException, AWTException
 	 {
 	ValidateFooter.validateBootsFooterSocialMediaLinks();
 	 }
 	
-	//@AfterClass
+	@AfterClass
 	 public void SetUpEnd()
 	 {
 		driver.quit();
