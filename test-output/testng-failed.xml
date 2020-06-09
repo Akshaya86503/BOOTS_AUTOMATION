@@ -10,10 +10,41 @@
         <methods>
           <include name="SetUpStart"/>
           <include name="SetUpEnd"/>
-          <include name="SearchJobs_With_SortingOptions"/>
           <include name="SearchJobs_With_Pagination"/>
         </methods>
       </class> <!-- com.qa.Test.ExternalJobSearchTest -->
+      <class name="com.qa.Test.FAQTest">
+        <methods>
+          <include name="SetUpEnd"/>
+          <include name="SetUpStart"/>
+        </methods>
+      </class> <!-- com.qa.Test.FAQTest -->
+      <class name="com.qa.Test.EarlyCareersTest">
+        <methods>
+          <include name="SetUpEnd"/>
+          <include name="SetUpStart"/>
+          <include name="ValidateTwitIconClickTest"/>
+        </methods>
+      </class> <!-- com.qa.Test.EarlyCareersTest -->
+      <class name="com.qa.Test.OurStoriesTest">
+        <methods>
+          <include name="SetUpEnd"/>
+          <include name="SetUpStart"/>
+        </methods>
+      </class> <!-- com.qa.Test.OurStoriesTest -->
+      <class name="com.qa.Test.PharmacistPageTest">
+        <methods>
+          <include name="SetUpEnd"/>
+          <include name="BookaCallBackFormWithValidDataTest" invocation-numbers="0"/>
+          <include name="SetUpStart"/>
+        </methods>
+      </class> <!-- com.qa.Test.PharmacistPageTest -->
+      <class name="com.qa.Test.HomePageTest">
+        <methods>
+          <include name="SetUpStart"/>
+          <include name="SetUpEnd"/>
+        </methods>
+      </class> <!-- com.qa.Test.HomePageTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
