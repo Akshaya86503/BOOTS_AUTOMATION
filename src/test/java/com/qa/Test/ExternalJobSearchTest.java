@@ -19,7 +19,7 @@ public class ExternalJobSearchTest extends BasePage
 	WebElements webdata;
 	
 	
-	//@BeforeClass
+	@BeforeClass
 	public void SetUpStart() throws FileNotFoundException
 	{
 		Initialization();
@@ -27,29 +27,29 @@ public class ExternalJobSearchTest extends BasePage
 		webdata = new WebElements();
 	}
 	
-	//@DataProvider
+	@DataProvider
 	 public Object[][] getExcelData() throws InvalidFormatException, IOException{
 	 return CommonMethods.ExcelRedaer("C:/Users/arahate/git/BOOTS_AUTOMATION/src/main/java/com/qa/TestData/test1.xlsx", "Sheet1");
 	 }
 	 
-	//@Test(priority=4)
+	@Test(priority=12)
 	 public void SearchJobs_With_InvalidData() throws InterruptedException, AWTException
 	 {
 		 External.SearchJobsWithInvalidData();
 	 }
-   // @Test(priority=2)
+   @Test(priority=13)
 	 public void SearchJobs_With_SortingOptions() throws InterruptedException, AWTException
 	 {
 		 External.ValidateJobsSortingFunctionality();
 	 }
 	 
-	//@Test(priority=3)
+	@Test(priority=14)
 	 public void SearchJobs_With_Pagination() throws InterruptedException, AWTException
 	 {
 		 External.ValidateJobsPaginationFunctionality();
 	 }
 	 
-	// @Test(dataProvider = "getExcelData",priority=1)
+	@Test(dataProvider = "getExcelData",priority=15)
 	 public void SearchJobsWithValidData(String keyt, String Loct, String dist, String bus, String fun, String job, String cont, String ref) throws InterruptedException, AWTException
 	 {
 		Thread.sleep(4000);
@@ -61,7 +61,7 @@ public class ExternalJobSearchTest extends BasePage
 		External.SearchJobsWithValidData(keyt,Loct,dist,bus,fun,job,cont,ref);
 	 } 
 	 
-	// @AfterClass
+	@AfterClass
 	 public void SetUpEnd()
 	 {
 		 driver.quit();
