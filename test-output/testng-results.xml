@@ -2,34 +2,34 @@
 <testng-results skipped="0" failed="3" total="15" passed="12">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="668608" started-at="2020-06-09T06:26:55Z" finished-at="2020-06-09T06:38:04Z">
+  <suite name="Suite" duration-ms="619858" started-at="2020-06-09T07:37:54Z" finished-at="2020-06-09T07:48:14Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="668608" started-at="2020-06-09T06:26:55Z" finished-at="2020-06-09T06:38:04Z">
+    <test name="Test" duration-ms="619858" started-at="2020-06-09T07:37:54Z" finished-at="2020-06-09T07:48:14Z">
       <class name="com.qa.Test.HomePageTest">
-        <test-method status="PASS" signature="SetUpStart()[pri:0, instance:com.qa.Test.HomePageTest@59ec2012]" name="SetUpStart" is-config="true" duration-ms="29807" started-at="2020-06-09T11:56:55Z" finished-at="2020-06-09T11:57:25Z">
+        <test-method status="PASS" signature="SetUpStart()[pri:0, instance:com.qa.Test.HomePageTest@59ec2012]" name="SetUpStart" is-config="true" duration-ms="26894" started-at="2020-06-09T13:07:54Z" finished-at="2020-06-09T13:08:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUpStart -->
-        <test-method status="PASS" signature="HomepageBannerClickTest()[pri:0, instance:com.qa.Test.HomePageTest@59ec2012]" name="HomepageBannerClickTest" duration-ms="11727" started-at="2020-06-09T11:57:25Z" finished-at="2020-06-09T11:57:37Z">
+        <test-method status="PASS" signature="HomepageBannerClickTest()[pri:0, instance:com.qa.Test.HomePageTest@59ec2012]" name="HomepageBannerClickTest" duration-ms="12017" started-at="2020-06-09T13:08:21Z" finished-at="2020-06-09T13:08:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HomepageBannerClickTest -->
-        <test-method status="PASS" signature="HomepageStoryBannerClickTest()[pri:0, instance:com.qa.Test.HomePageTest@59ec2012]" name="HomepageStoryBannerClickTest" duration-ms="44882" started-at="2020-06-09T11:57:37Z" finished-at="2020-06-09T11:58:22Z">
+        <test-method status="PASS" signature="HomepageStoryBannerClickTest()[pri:0, instance:com.qa.Test.HomePageTest@59ec2012]" name="HomepageStoryBannerClickTest" duration-ms="45659" started-at="2020-06-09T13:08:33Z" finished-at="2020-06-09T13:09:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HomepageStoryBannerClickTest -->
-        <test-method status="PASS" signature="SetUpEnd()[pri:0, instance:com.qa.Test.HomePageTest@59ec2012]" name="SetUpEnd" is-config="true" duration-ms="0" started-at="2020-06-09T11:58:22Z" finished-at="2020-06-09T11:58:22Z">
+        <test-method status="PASS" signature="SetUpEnd()[pri:0, instance:com.qa.Test.HomePageTest@59ec2012]" name="SetUpEnd" is-config="true" duration-ms="1" started-at="2020-06-09T13:09:19Z" finished-at="2020-06-09T13:09:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUpEnd -->
       </class> <!-- com.qa.Test.HomePageTest -->
       <class name="com.qa.Test.ExternalJobSearchTest">
-        <test-method status="PASS" signature="SetUpStart()[pri:0, instance:com.qa.Test.ExternalJobSearchTest@6eebc39e]" name="SetUpStart" is-config="true" duration-ms="23314" started-at="2020-06-09T11:58:22Z" finished-at="2020-06-09T11:58:45Z">
+        <test-method status="PASS" signature="SetUpStart()[pri:0, instance:com.qa.Test.ExternalJobSearchTest@6eebc39e]" name="SetUpStart" is-config="true" duration-ms="21284" started-at="2020-06-09T13:09:19Z" finished-at="2020-06-09T13:09:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUpStart -->
-        <test-method status="PASS" signature="SearchJobsWithValidData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.Test.ExternalJobSearchTest@6eebc39e]" name="SearchJobsWithValidData" duration-ms="54281" started-at="2020-06-09T11:58:48Z" data-provider="getExcelData" finished-at="2020-06-09T11:59:42Z">
+        <test-method status="PASS" signature="SearchJobsWithValidData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.Test.ExternalJobSearchTest@6eebc39e]" name="SearchJobsWithValidData" duration-ms="55442" started-at="2020-06-09T13:09:42Z" data-provider="getExcelData" finished-at="2020-06-09T13:10:37Z">
           <params>
             <param index="0">
               <value>
@@ -75,7 +75,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchJobsWithValidData -->
-        <test-method status="FAIL" signature="SearchJobs_With_Pagination()[pri:0, instance:com.qa.Test.ExternalJobSearchTest@6eebc39e]" name="SearchJobs_With_Pagination" duration-ms="14131" started-at="2020-06-09T11:59:42Z" finished-at="2020-06-09T11:59:56Z">
+        <test-method status="FAIL" signature="SearchJobs_With_Pagination()[pri:0, instance:com.qa.Test.ExternalJobSearchTest@6eebc39e]" name="SearchJobs_With_Pagination" duration-ms="14130" started-at="2020-06-09T13:10:37Z" finished-at="2020-06-09T13:10:52Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[4]/main/section/div[2]/div[2]/div[2]/div[1]/ul/li[4]/a/span"}
@@ -86,8 +86,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
 System info: host: 'SWLL124', ip: '192.168.1.204', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\Test\AppData\Local\Temp\scoped_dir20936_17671}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=83.0.4103.97, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 55e2719d91f7dd286ad773eab18f6c53
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\Test\AppData\Local\Temp\scoped_dir11500_11913}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=83.0.4103.97, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e05fb3dee8ac4475c62d0c88ffee50cc
 *** Element info: {Using=xpath, value=/html/body/div[4]/main/section/div[2]/div[2]/div[2]/div[1]/ul/li[4]/a/span}]]>
             </message>
             <full-stacktrace>
@@ -99,8 +99,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
 System info: host: 'SWLL124', ip: '192.168.1.204', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\Test\AppData\Local\Temp\scoped_dir20936_17671}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=83.0.4103.97, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 55e2719d91f7dd286ad773eab18f6c53
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\Test\AppData\Local\Temp\scoped_dir11500_11913}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=83.0.4103.97, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e05fb3dee8ac4475c62d0c88ffee50cc
 *** Element info: {Using=xpath, value=/html/body/div[4]/main/section/div[2]/div[2]/div[2]/div[1]/ul/li[4]/a/span}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -150,37 +150,37 @@ Session ID: 55e2719d91f7dd286ad773eab18f6c53
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchJobs_With_Pagination -->
-        <test-method status="PASS" signature="SearchJobs_With_SortingOptions()[pri:0, instance:com.qa.Test.ExternalJobSearchTest@6eebc39e]" name="SearchJobs_With_SortingOptions" duration-ms="10186" started-at="2020-06-09T11:59:56Z" finished-at="2020-06-09T12:00:07Z">
+        <test-method status="PASS" signature="SearchJobs_With_SortingOptions()[pri:0, instance:com.qa.Test.ExternalJobSearchTest@6eebc39e]" name="SearchJobs_With_SortingOptions" duration-ms="10733" started-at="2020-06-09T13:10:52Z" finished-at="2020-06-09T13:11:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchJobs_With_SortingOptions -->
-        <test-method status="PASS" signature="SearchJobs_With_InvalidData()[pri:0, instance:com.qa.Test.ExternalJobSearchTest@6eebc39e]" name="SearchJobs_With_InvalidData" duration-ms="16807" started-at="2020-06-09T12:00:07Z" finished-at="2020-06-09T12:00:23Z">
+        <test-method status="PASS" signature="SearchJobs_With_InvalidData()[pri:0, instance:com.qa.Test.ExternalJobSearchTest@6eebc39e]" name="SearchJobs_With_InvalidData" duration-ms="17223" started-at="2020-06-09T13:11:02Z" finished-at="2020-06-09T13:11:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchJobs_With_InvalidData -->
-        <test-method status="PASS" signature="SetUpEnd()[pri:0, instance:com.qa.Test.ExternalJobSearchTest@6eebc39e]" name="SetUpEnd" is-config="true" duration-ms="2" started-at="2020-06-09T12:00:23Z" finished-at="2020-06-09T12:00:23Z">
+        <test-method status="PASS" signature="SetUpEnd()[pri:0, instance:com.qa.Test.ExternalJobSearchTest@6eebc39e]" name="SetUpEnd" is-config="true" duration-ms="1" started-at="2020-06-09T13:11:20Z" finished-at="2020-06-09T13:11:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUpEnd -->
       </class> <!-- com.qa.Test.ExternalJobSearchTest -->
       <class name="com.qa.Test.EarlyCareersTest">
-        <test-method status="PASS" signature="SetUpStart()[pri:0, instance:com.qa.Test.EarlyCareersTest@42dafa95]" name="SetUpStart" is-config="true" duration-ms="20473" started-at="2020-06-09T12:02:19Z" finished-at="2020-06-09T12:02:39Z">
+        <test-method status="PASS" signature="SetUpStart()[pri:0, instance:com.qa.Test.EarlyCareersTest@42dafa95]" name="SetUpStart" is-config="true" duration-ms="23179" started-at="2020-06-09T13:13:17Z" finished-at="2020-06-09T13:13:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUpStart -->
-        <test-method status="PASS" signature="ValidateImageBannerClickTest()[pri:0, instance:com.qa.Test.EarlyCareersTest@42dafa95]" name="ValidateImageBannerClickTest" duration-ms="27570" started-at="2020-06-09T12:02:39Z" finished-at="2020-06-09T12:03:07Z">
+        <test-method status="PASS" signature="ValidateImageBannerClickTest()[pri:0, instance:com.qa.Test.EarlyCareersTest@42dafa95]" name="ValidateImageBannerClickTest" duration-ms="31204" started-at="2020-06-09T13:13:40Z" finished-at="2020-06-09T13:14:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateImageBannerClickTest -->
-        <test-method status="PASS" signature="ValidateLatestJobsSectionClickTest()[pri:0, instance:com.qa.Test.EarlyCareersTest@42dafa95]" name="ValidateLatestJobsSectionClickTest" duration-ms="14527" started-at="2020-06-09T12:03:07Z" finished-at="2020-06-09T12:03:21Z">
+        <test-method status="PASS" signature="ValidateLatestJobsSectionClickTest()[pri:0, instance:com.qa.Test.EarlyCareersTest@42dafa95]" name="ValidateLatestJobsSectionClickTest" duration-ms="14479" started-at="2020-06-09T13:14:11Z" finished-at="2020-06-09T13:14:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateLatestJobsSectionClickTest -->
-        <test-method status="PASS" signature="ValidateLatestJobsRolesSectionClickTest()[pri:0, instance:com.qa.Test.EarlyCareersTest@42dafa95]" name="ValidateLatestJobsRolesSectionClickTest" duration-ms="22675" started-at="2020-06-09T12:03:21Z" finished-at="2020-06-09T12:03:44Z">
+        <test-method status="PASS" signature="ValidateLatestJobsRolesSectionClickTest()[pri:0, instance:com.qa.Test.EarlyCareersTest@42dafa95]" name="ValidateLatestJobsRolesSectionClickTest" duration-ms="23027" started-at="2020-06-09T13:14:26Z" finished-at="2020-06-09T13:14:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateLatestJobsRolesSectionClickTest -->
-        <test-method status="FAIL" signature="ValidateTwitIconClickTest()[pri:0, instance:com.qa.Test.EarlyCareersTest@42dafa95]" name="ValidateTwitIconClickTest" duration-ms="14032" started-at="2020-06-09T12:03:44Z" finished-at="2020-06-09T12:03:58Z">
+        <test-method status="FAIL" signature="ValidateTwitIconClickTest()[pri:0, instance:com.qa.Test.EarlyCareersTest@42dafa95]" name="ValidateTwitIconClickTest" duration-ms="14052" started-at="2020-06-09T13:14:49Z" finished-at="2020-06-09T13:15:03Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[@href='https://twitter.com/intent/tweet?in_reply_to=1264176786390294529']"}
@@ -191,8 +191,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
 System info: host: 'SWLL124', ip: '192.168.1.204', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\Test\AppData\Local\Temp\scoped_dir3664_22520}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=83.0.4103.97, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 623734ad9ed2abc2d4798267d687db45
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\Test\AppData\Local\Temp\scoped_dir14416_22041}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=83.0.4103.97, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4bf843598c6fc13e81621ebd8702ee24
 *** Element info: {Using=xpath, value=//a[@href='https://twitter.com/intent/tweet?in_reply_to=1264176786390294529']}]]>
             </message>
             <full-stacktrace>
@@ -204,8 +204,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
 System info: host: 'SWLL124', ip: '192.168.1.204', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\Test\AppData\Local\Temp\scoped_dir3664_22520}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=83.0.4103.97, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 623734ad9ed2abc2d4798267d687db45
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\Test\AppData\Local\Temp\scoped_dir14416_22041}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=83.0.4103.97, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4bf843598c6fc13e81621ebd8702ee24
 *** Element info: {Using=xpath, value=//a[@href='https://twitter.com/intent/tweet?in_reply_to=1264176786390294529']}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -260,49 +260,49 @@ Session ID: 623734ad9ed2abc2d4798267d687db45
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateTwitIconClickTest -->
-        <test-method status="PASS" signature="ValidateSingleStorySelectionClickTest()[pri:0, instance:com.qa.Test.EarlyCareersTest@42dafa95]" name="ValidateSingleStorySelectionClickTest" duration-ms="7172" started-at="2020-06-09T12:03:58Z" finished-at="2020-06-09T12:04:05Z">
+        <test-method status="PASS" signature="ValidateSingleStorySelectionClickTest()[pri:0, instance:com.qa.Test.EarlyCareersTest@42dafa95]" name="ValidateSingleStorySelectionClickTest" duration-ms="7360" started-at="2020-06-09T13:15:03Z" finished-at="2020-06-09T13:15:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateSingleStorySelectionClickTest -->
-        <test-method status="PASS" signature="SetUpEnd()[pri:0, instance:com.qa.Test.EarlyCareersTest@42dafa95]" name="SetUpEnd" is-config="true" duration-ms="1" started-at="2020-06-09T12:04:05Z" finished-at="2020-06-09T12:04:05Z">
+        <test-method status="PASS" signature="SetUpEnd()[pri:0, instance:com.qa.Test.EarlyCareersTest@42dafa95]" name="SetUpEnd" is-config="true" duration-ms="0" started-at="2020-06-09T13:15:10Z" finished-at="2020-06-09T13:15:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUpEnd -->
       </class> <!-- com.qa.Test.EarlyCareersTest -->
       <class name="com.qa.Test.OurStoriesTest">
-        <test-method status="PASS" signature="SetUpStart()[pri:0, instance:com.qa.Test.OurStoriesTest@6500df86]" name="SetUpStart" is-config="true" duration-ms="28445" started-at="2020-06-09T12:04:05Z" finished-at="2020-06-09T12:04:34Z">
+        <test-method status="PASS" signature="SetUpStart()[pri:0, instance:com.qa.Test.OurStoriesTest@6500df86]" name="SetUpStart" is-config="true" duration-ms="24150" started-at="2020-06-09T13:15:10Z" finished-at="2020-06-09T13:15:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUpStart -->
-        <test-method status="PASS" signature="OurStoriesPageTest()[pri:0, instance:com.qa.Test.OurStoriesTest@6500df86]" name="OurStoriesPageTest" duration-ms="64191" started-at="2020-06-09T12:04:34Z" finished-at="2020-06-09T12:05:38Z">
+        <test-method status="PASS" signature="OurStoriesPageTest()[pri:0, instance:com.qa.Test.OurStoriesTest@6500df86]" name="OurStoriesPageTest" duration-ms="65423" started-at="2020-06-09T13:15:35Z" finished-at="2020-06-09T13:16:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OurStoriesPageTest -->
-        <test-method status="PASS" signature="SetUpEnd()[pri:0, instance:com.qa.Test.OurStoriesTest@6500df86]" name="SetUpEnd" is-config="true" duration-ms="0" started-at="2020-06-09T12:05:38Z" finished-at="2020-06-09T12:05:38Z">
+        <test-method status="PASS" signature="SetUpEnd()[pri:0, instance:com.qa.Test.OurStoriesTest@6500df86]" name="SetUpEnd" is-config="true" duration-ms="1" started-at="2020-06-09T13:16:40Z" finished-at="2020-06-09T13:16:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUpEnd -->
       </class> <!-- com.qa.Test.OurStoriesTest -->
       <class name="com.qa.Test.FAQTest">
-        <test-method status="PASS" signature="SetUpStart()[pri:0, instance:com.qa.Test.FAQTest@589838eb]" name="SetUpStart" is-config="true" duration-ms="24369" started-at="2020-06-09T12:05:38Z" finished-at="2020-06-09T12:06:02Z">
+        <test-method status="PASS" signature="SetUpStart()[pri:0, instance:com.qa.Test.FAQTest@589838eb]" name="SetUpStart" is-config="true" duration-ms="22606" started-at="2020-06-09T13:16:40Z" finished-at="2020-06-09T13:17:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUpStart -->
-        <test-method status="PASS" signature="FAQpageTextAccordionTest()[pri:0, instance:com.qa.Test.FAQTest@589838eb]" name="FAQpageTextAccordionTest" duration-ms="121664" started-at="2020-06-09T12:06:02Z" finished-at="2020-06-09T12:08:04Z">
+        <test-method status="PASS" signature="FAQpageTextAccordionTest()[pri:0, instance:com.qa.Test.FAQTest@589838eb]" name="FAQpageTextAccordionTest" duration-ms="71683" started-at="2020-06-09T13:17:03Z" finished-at="2020-06-09T13:18:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FAQpageTextAccordionTest -->
-        <test-method status="PASS" signature="SetUpEnd()[pri:0, instance:com.qa.Test.FAQTest@589838eb]" name="SetUpEnd" is-config="true" duration-ms="0" started-at="2020-06-09T12:08:04Z" finished-at="2020-06-09T12:08:04Z">
+        <test-method status="PASS" signature="SetUpEnd()[pri:0, instance:com.qa.Test.FAQTest@589838eb]" name="SetUpEnd" is-config="true" duration-ms="0" started-at="2020-06-09T13:18:14Z" finished-at="2020-06-09T13:18:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUpEnd -->
       </class> <!-- com.qa.Test.FAQTest -->
       <class name="com.qa.Test.PharmacistPageTest">
-        <test-method status="PASS" signature="SetUpStart()[pri:0, instance:com.qa.Test.PharmacistPageTest@402a079c]" name="SetUpStart" is-config="true" duration-ms="21083" started-at="2020-06-09T12:00:23Z" finished-at="2020-06-09T12:00:44Z">
+        <test-method status="PASS" signature="SetUpStart()[pri:0, instance:com.qa.Test.PharmacistPageTest@402a079c]" name="SetUpStart" is-config="true" duration-ms="21788" started-at="2020-06-09T13:11:20Z" finished-at="2020-06-09T13:11:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUpStart -->
-        <test-method status="FAIL" signature="BookaCallBackFormWithValidDataTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.Test.PharmacistPageTest@402a079c]" name="BookaCallBackFormWithValidDataTest" duration-ms="14025" started-at="2020-06-09T12:00:45Z" data-provider="getExcelData" finished-at="2020-06-09T12:00:59Z">
+        <test-method status="FAIL" signature="BookaCallBackFormWithValidDataTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.Test.PharmacistPageTest@402a079c]" name="BookaCallBackFormWithValidDataTest" duration-ms="14070" started-at="2020-06-09T13:11:42Z" data-provider="getExcelData" finished-at="2020-06-09T13:11:56Z">
           <params>
             <param index="0">
               <value>
@@ -365,8 +365,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
 System info: host: 'SWLL124', ip: '192.168.1.204', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\Test\AppData\Local\Temp\scoped_dir10660_31411}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=83.0.4103.97, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: c67b86a0a5f136e56d8366d95e683cda
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\Test\AppData\Local\Temp\scoped_dir20316_31019}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=83.0.4103.97, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 62c3e97ca8c90b6fc105f04022dcbc00
 *** Element info: {Using=xpath, value=//span[text()='Book a call back']}]]>
             </message>
             <full-stacktrace>
@@ -378,8 +378,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
 System info: host: 'SWLL124', ip: '192.168.1.204', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\Test\AppData\Local\Temp\scoped_dir10660_31411}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=83.0.4103.97, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: c67b86a0a5f136e56d8366d95e683cda
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\Test\AppData\Local\Temp\scoped_dir20316_31019}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=83.0.4103.97, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 62c3e97ca8c90b6fc105f04022dcbc00
 *** Element info: {Using=xpath, value=//span[text()='Book a call back']}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -432,11 +432,11 @@ Session ID: c67b86a0a5f136e56d8366d95e683cda
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BookaCallBackFormWithValidDataTest -->
-        <test-method status="PASS" signature="AllLocationsFunctionalityTest()[pri:0, instance:com.qa.Test.PharmacistPageTest@402a079c]" name="AllLocationsFunctionalityTest" duration-ms="79968" started-at="2020-06-09T12:00:59Z" finished-at="2020-06-09T12:02:19Z">
+        <test-method status="PASS" signature="AllLocationsFunctionalityTest()[pri:0, instance:com.qa.Test.PharmacistPageTest@402a079c]" name="AllLocationsFunctionalityTest" duration-ms="81372" started-at="2020-06-09T13:11:56Z" finished-at="2020-06-09T13:13:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AllLocationsFunctionalityTest -->
-        <test-method status="PASS" signature="SetUpEnd()[pri:0, instance:com.qa.Test.PharmacistPageTest@402a079c]" name="SetUpEnd" is-config="true" duration-ms="0" started-at="2020-06-09T12:02:19Z" finished-at="2020-06-09T12:02:19Z">
+        <test-method status="PASS" signature="SetUpEnd()[pri:0, instance:com.qa.Test.PharmacistPageTest@402a079c]" name="SetUpEnd" is-config="true" duration-ms="0" started-at="2020-06-09T13:13:17Z" finished-at="2020-06-09T13:13:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUpEnd -->
