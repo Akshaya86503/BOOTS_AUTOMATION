@@ -64,6 +64,6 @@ public class ExternalJobSearchTest extends BasePage
 	@AfterClass
 	 public void SetUpEnd()
 	 {
-		 driver.quit();
+	
 	 }
 }
