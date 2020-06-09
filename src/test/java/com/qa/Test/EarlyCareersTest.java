@@ -22,7 +22,7 @@ public class EarlyCareersTest extends BasePage
 		newwebelemets = new WebElements();
 	}
 	
-	@Test(priority=7)
+	@Test(priority=9)
 	public void ValidateImageBannerClickTest() throws InterruptedException, AWTException
     {
 		Thread.sleep(4000);
@@ -32,26 +32,26 @@ public class EarlyCareersTest extends BasePage
 		ECarrer.ValidateBannerImageClick();
 	}
 	
-	@Test(priority=8)
+	@Test(priority=10)
 	public void ValidateLatestJobsSectionClickTest() throws InterruptedException, AWTException
     {
 		ECarrer.ValidateLatestJobsSelection();
     }
 	
-	@Test(priority=9)
+	@Test(priority=11)
 	public void ValidateLatestJobsRolesSectionClickTest() throws InterruptedException, AWTException
     {
 		
 		ECarrer.ValidateLatestJobRolesSelection();
     }
 	
-	@Test(priority=10)
+	@Test(priority=12)
 	public void ValidateTwitIconClickTest() throws InterruptedException, AWTException
     {
 		ECarrer.ValidateTwitIconSelection();
     }
 	
-	@Test(priority=11)
+	@Test(priority=13)
 	public void ValidateSingleStorySelectionClickTest() throws InterruptedException, AWTException
     {
 		ECarrer.ValidateSingleStorySelectionClick();

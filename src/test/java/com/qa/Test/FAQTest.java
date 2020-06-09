@@ -22,10 +22,10 @@ public class FAQTest extends BasePage
 		newwebelemets = new WebElements();
 	}
 	
-	@Test(priority=6)
+	@Test(priority=15)
 	public void FAQpageTextAccordionTest() throws InterruptedException, AWTException
     {
-		CommonMethods.NavigateToPerticularPage(WebElements.menuOurStories);
+		CommonMethods.NavigateToPerticularPage(WebElements.menuFAQ);
 		Thread.sleep(4000);
 		faqpage.ValidateFAQAccrodionClick();
 	}

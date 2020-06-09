@@ -33,8 +33,8 @@ public class PharmacistPage extends BasePage
         Thread.sleep(4000);
 		WebElements.drpCallBackTime.click();
         driver.findElement(By.xpath("//div[@class='dropdown time open']/ul/li[text()='"+Cbtime+"']")).click();
-        Thread.sleep(4000);
-		WebElements.buttonSubmit.click();
+       // Thread.sleep(4000);
+		//WebElements.buttonSubmit.click();
 		
 	}
 	

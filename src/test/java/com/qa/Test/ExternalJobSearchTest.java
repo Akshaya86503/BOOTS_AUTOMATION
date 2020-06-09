@@ -32,24 +32,24 @@ public class ExternalJobSearchTest extends BasePage
 	 return CommonMethods.ExcelRedaer("C:/Users/arahate/git/BOOTS_AUTOMATION/src/main/java/com/qa/TestData/test1.xlsx", "Sheet1");
 	 }
 	 
-	@Test(priority=12)
+	@Test(priority=6)
 	 public void SearchJobs_With_InvalidData() throws InterruptedException, AWTException
 	 {
 		 External.SearchJobsWithInvalidData();
 	 }
-   @Test(priority=13)
+   @Test(priority=5)
 	 public void SearchJobs_With_SortingOptions() throws InterruptedException, AWTException
 	 {
 		 External.ValidateJobsSortingFunctionality();
 	 }
 	 
-	@Test(priority=14)
+	@Test(priority=4)
 	 public void SearchJobs_With_Pagination() throws InterruptedException, AWTException
 	 {
 		 External.ValidateJobsPaginationFunctionality();
 	 }
 	 
-	@Test(dataProvider = "getExcelData",priority=15)
+	@Test(dataProvider = "getExcelData",priority=3)
 	 public void SearchJobsWithValidData(String keyt, String Loct, String dist, String bus, String fun, String job, String cont, String ref) throws InterruptedException, AWTException
 	 {
 		Thread.sleep(4000);

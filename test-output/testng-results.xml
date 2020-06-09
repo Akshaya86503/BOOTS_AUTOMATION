@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="87412" started-at="2020-06-05T09:27:33Z" finished-at="2020-06-05T09:29:01Z">
+  <suite name="Suite" duration-ms="83991" started-at="2020-06-09T05:52:26Z" finished-at="2020-06-09T05:53:50Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="87412" started-at="2020-06-05T09:27:33Z" finished-at="2020-06-05T09:29:01Z">
+    <test name="Test" duration-ms="83991" started-at="2020-06-09T05:52:26Z" finished-at="2020-06-09T05:53:50Z">
       <class name="com.qa.Test.HomePageTest">
-        <test-method status="PASS" signature="SetUpStart()[pri:0, instance:com.qa.Test.HomePageTest@5622fdf]" name="SetUpStart" is-config="true" duration-ms="29414" started-at="2020-06-05T14:57:33Z" finished-at="2020-06-05T14:58:03Z">
+        <test-method status="PASS" signature="SetUpStart()[pri:0, instance:com.qa.Test.HomePageTest@5622fdf]" name="SetUpStart" is-config="true" duration-ms="27454" started-at="2020-06-09T11:22:26Z" finished-at="2020-06-09T11:22:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUpStart -->
-        <test-method status="PASS" signature="HomepageBannerClickTest()[pri:0, instance:com.qa.Test.HomePageTest@5622fdf]" name="HomepageBannerClickTest" duration-ms="11981" started-at="2020-06-05T14:58:03Z" finished-at="2020-06-05T14:58:15Z">
+        <test-method status="PASS" signature="HomepageBannerClickTest()[pri:0, instance:com.qa.Test.HomePageTest@5622fdf]" name="HomepageBannerClickTest" duration-ms="11571" started-at="2020-06-09T11:22:54Z" finished-at="2020-06-09T11:23:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HomepageBannerClickTest -->
-        <test-method status="PASS" signature="HomepageStoryBannerClickTest()[pri:0, instance:com.qa.Test.HomePageTest@5622fdf]" name="HomepageStoryBannerClickTest" duration-ms="45935" started-at="2020-06-05T14:58:15Z" finished-at="2020-06-05T14:59:01Z">
+        <test-method status="PASS" signature="HomepageStoryBannerClickTest()[pri:0, instance:com.qa.Test.HomePageTest@5622fdf]" name="HomepageStoryBannerClickTest" duration-ms="44901" started-at="2020-06-09T11:23:06Z" finished-at="2020-06-09T11:23:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HomepageStoryBannerClickTest -->
-        <test-method status="PASS" signature="SetUpEnd()[pri:0, instance:com.qa.Test.HomePageTest@5622fdf]" name="SetUpEnd" is-config="true" duration-ms="1" started-at="2020-06-05T14:59:01Z" finished-at="2020-06-05T14:59:01Z">
+        <test-method status="PASS" signature="SetUpEnd()[pri:0, instance:com.qa.Test.HomePageTest@5622fdf]" name="SetUpEnd" is-config="true" duration-ms="0" started-at="2020-06-09T11:23:50Z" finished-at="2020-06-09T11:23:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUpEnd -->
