@@ -13,7 +13,7 @@ public class HomePageTest extends BasePage
 	HomePage homepage;
 	WebElements newwebelemets;
 	
-	@BeforeClass
+	//@BeforeClass
 	public void SetUpStart() throws FileNotFoundException
 	{
 		Initialization();
@@ -21,7 +21,7 @@ public class HomePageTest extends BasePage
 		newwebelemets = new WebElements();
 	}
 	
-	@Test(priority=1)
+	//@Test(priority=1)
 	public void HomepageBannerClickTest() throws InterruptedException, AWTException
     {
 	Thread.sleep(4000);
@@ -29,7 +29,7 @@ public class HomePageTest extends BasePage
 	homepage.ValidateHomepageBannerClick();
 	}
 	
-	@Test(priority=2)
+	//@Test(priority=2)
 	public void HomepageStoryBannerClickTest() throws InterruptedException, AWTException
     {
 	homepage.ValidateOurStoriesSliderClick();
@@ -40,7 +40,7 @@ public class HomePageTest extends BasePage
 	homepage.ValidateFollowOurStorySliderClick();
 	}
 	 
-	 @AfterClass
+	// @AfterClass
 	 public void SetUpEnd()
 	 {
 		 

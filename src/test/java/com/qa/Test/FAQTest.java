@@ -14,7 +14,7 @@ public class FAQTest extends BasePage
 	FAQ faqpage;
 	WebElements newwebelemets;
 	
-	@BeforeClass
+	//@BeforeClass
 	public void SetUpStart() throws FileNotFoundException
 	{
 		Initialization();
@@ -22,7 +22,7 @@ public class FAQTest extends BasePage
 		newwebelemets = new WebElements();
 	}
 	
-	@Test(priority=15)
+	//@Test(priority=15)
 	public void FAQpageTextAccordionTest() throws InterruptedException, AWTException
     {
 		CommonMethods.NavigateToPerticularPage(WebElements.menuFAQ);
@@ -31,7 +31,7 @@ public class FAQTest extends BasePage
 	}
 	
 	
-	@AfterClass
+	//@AfterClass
 	 public void SetUpEnd()
 	 {
 		 

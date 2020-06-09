@@ -14,7 +14,7 @@ public class OurStoriesTest extends BasePage
 	OurStories storypage;
 	WebElements newwebelemets;
 	
-	@BeforeClass
+	//@BeforeClass
 	public void SetUpStart() throws FileNotFoundException
 	{
 		Initialization();
@@ -22,7 +22,7 @@ public class OurStoriesTest extends BasePage
 		newwebelemets = new WebElements();
 	}
 	
-	@Test(priority=14)
+	//@Test(priority=14)
 	public void OurStoriesPageTest() throws AWTException, InterruptedException
 	{
 		CommonMethods.NavigateToPerticularPage(WebElements.menuOurStories);
@@ -30,7 +30,7 @@ public class OurStoriesTest extends BasePage
 		storypage.ValidateOurStorySection();
 	}
 	
-	@AfterClass
+	//@AfterClass
 	 public void SetUpEnd()
 	 {
 		 

@@ -16,6 +16,7 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 
@@ -72,6 +73,15 @@ public class CommonMethods extends BasePage
 		 robot.keyPress(KeyEvent.VK_ENTER);
 		 robot.keyRelease(KeyEvent.VK_ENTER);
 		return ex;
+	}
+	
+	//method to open link in new tab directly
+	public static WebElement NewtabFunctionDirect(WebElement ex) throws AWTException, InterruptedException
+	{
+		Actions action = new Actions(driver);
+		action.keyDown(Keys.CONTROL).moveToElement(ex).click().perform();
+		return ex;
+	
 	}
 			
 //Read data from excel file
