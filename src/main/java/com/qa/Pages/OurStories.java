@@ -13,8 +13,6 @@ public void ValidateOurStorySection() throws InterruptedException, AWTException
 	Thread.sleep(4000);
 	WebElement Storytext = driver.findElement(By.xpath("//div[@class='category-wrapper']/div["+i+"]"));
 	Storytext.click();
-	Thread.sleep(4000);
-	driver.findElement(By.cssSelector("body")).sendKeys(Keys.CONTROL, Keys.END);
 	}
 	}
 	}

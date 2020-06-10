@@ -45,7 +45,7 @@ public class EarlyCareersTest extends BasePage
 		ECarrer.ValidateLatestJobRolesSelection();
     }
 	
-	//@Test(priority=20)
+	//@Test(priority=18)
 	public void ValidateTwitIconClickTest() throws InterruptedException, AWTException
     {
 		ECarrer.ValidateTwitIconSelection();
