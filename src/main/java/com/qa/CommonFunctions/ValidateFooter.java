@@ -14,7 +14,6 @@ public class ValidateFooter extends BasePage
 	{
 		Thread.sleep(4000);
 		CommonMethods.Mousemove(WebElements.buttonAcceptCookies).click();
-		Thread.sleep(4000);
 		driver.findElement(By.cssSelector("body")).sendKeys(Keys.CONTROL, Keys.END);
 		
 		Thread.sleep(4000);
