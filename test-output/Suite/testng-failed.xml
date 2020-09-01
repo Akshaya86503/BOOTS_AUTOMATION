@@ -6,13 +6,60 @@
   </listeners>
   <test name="Test(failed)">
     <classes>
+      <class name="com.qa.Test.ExternalJobSearchTest">
+        <methods>
+          <include name="SearchJobs_With_InvalidData"/>
+          <include name="SetUpStart"/>
+          <include name="SetUpEnd"/>
+          <include name="SearchJobsWithValidData" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.qa.Test.ExternalJobSearchTest -->
       <class name="com.qa.Test.ValidateHeaderTest">
         <methods>
-          <include name="ValidateBootsLogoTest"/>
+          <include name="ValidateBootsSearchJobsTest"/>
           <include name="SetUpEnd"/>
           <include name="SetUpStart"/>
         </methods>
       </class> <!-- com.qa.Test.ValidateHeaderTest -->
+      <class name="com.qa.Test.OurStoriesTest">
+        <methods>
+          <include name="SetUpEnd"/>
+          <include name="SetUpStart"/>
+        </methods>
+      </class> <!-- com.qa.Test.OurStoriesTest -->
+      <class name="com.qa.Test.EarlyCareersTest">
+        <methods>
+          <include name="SetUpEnd"/>
+          <include name="SetUpStart"/>
+          <include name="ValidateLatestJobsSectionClickTest"/>
+        </methods>
+      </class> <!-- com.qa.Test.EarlyCareersTest -->
+      <class name="com.qa.Test.FAQTest">
+        <methods>
+          <include name="SetUpEnd"/>
+          <include name="SetUpStart"/>
+        </methods>
+      </class> <!-- com.qa.Test.FAQTest -->
+      <class name="com.qa.Test.PharmacistPageTest">
+        <methods>
+          <include name="SetUpEnd"/>
+          <include name="SetUpStart"/>
+          <include name="AllLocationsFunctionalityTest"/>
+        </methods>
+      </class> <!-- com.qa.Test.PharmacistPageTest -->
+      <class name="com.qa.Test.ValidateFooterTest">
+        <methods>
+          <include name="SetUpStart"/>
+          <include name="SetUpEnd"/>
+        </methods>
+      </class> <!-- com.qa.Test.ValidateFooterTest -->
+      <class name="com.qa.Test.HomePageTest">
+        <methods>
+          <include name="SetUpStart"/>
+          <include name="SetUpEnd"/>
+          <include name="HomepageStoryBannerClickTest"/>
+        </methods>
+      </class> <!-- com.qa.Test.HomePageTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
