@@ -44,6 +44,6 @@ public class HomePageTest extends BasePage
 	@AfterClass
 	 public void SetUpEnd()
 	 {
-		driver.quit();
+		//driver.quit();
 	 }
 }

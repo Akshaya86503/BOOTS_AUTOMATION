@@ -54,6 +54,6 @@ public class PharmacistPageTest extends BasePage
 	@AfterClass
 	 public void SetUpEnd()
 	 {
-		driver.quit();
+		//driver.quit();
 	 }
 }

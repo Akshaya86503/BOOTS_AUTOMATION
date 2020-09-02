@@ -33,6 +33,6 @@ public class OurStoriesTest extends BasePage
 	@AfterClass
 	 public void SetUpEnd()
 	 {
-		driver.quit();
+		//driver.quit();
 	 }
 }
