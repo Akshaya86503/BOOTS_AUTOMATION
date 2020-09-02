@@ -35,14 +35,15 @@ public class HomePageTest extends BasePage
 	homepage.ValidateOurStoriesSliderClick();
 	}
 	
+	@Test(priority=9)
 	public void ValidateFollowOurStorySliderClickTest() throws InterruptedException, AWTException
     {
-	homepage.ValidateFollowOurStorySliderClick();
+	//homepage.ValidateFollowOurStorySliderClick();
 	}
 	 
 	@AfterClass
 	 public void SetUpEnd()
 	 {
-		 
+		driver.quit();
 	 }
 }

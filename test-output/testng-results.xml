@@ -1,43 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="6" total="18" passed="12">
+<testng-results skipped="0" failed="2" total="20" passed="18">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="800750" started-at="2020-09-01T11:17:51Z" finished-at="2020-09-01T11:31:12Z">
+  <suite name="Suite" duration-ms="688429" started-at="2020-09-02T06:39:37Z" finished-at="2020-09-02T06:51:06Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="800750" started-at="2020-09-01T11:17:51Z" finished-at="2020-09-01T11:31:12Z">
+    <test name="Test" duration-ms="688429" started-at="2020-09-02T06:39:37Z" finished-at="2020-09-02T06:51:06Z">
       <class name="com.qa.Test.HomePageTest">
-        <test-method status="PASS" signature="SetUpStart()[pri:0, instance:com.qa.Test.HomePageTest@1ce92674]" name="SetUpStart" is-config="true" duration-ms="27309" started-at="2020-09-01T16:47:51Z" finished-at="2020-09-01T16:48:18Z">
+        <test-method status="PASS" signature="SetUpStart()[pri:0, instance:com.qa.Test.HomePageTest@2f686d1f]" name="SetUpStart" is-config="true" duration-ms="26461" started-at="2020-09-02T12:13:19Z" finished-at="2020-09-02T12:13:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUpStart -->
-        <test-method status="PASS" signature="HomepageBannerClickTest()[pri:0, instance:com.qa.Test.HomePageTest@1ce92674]" name="HomepageBannerClickTest" duration-ms="11508" started-at="2020-09-01T16:48:18Z" finished-at="2020-09-01T16:48:30Z">
+        <test-method status="PASS" signature="HomepageBannerClickTest()[pri:0, instance:com.qa.Test.HomePageTest@2f686d1f]" name="HomepageBannerClickTest" duration-ms="11396" started-at="2020-09-02T12:13:45Z" finished-at="2020-09-02T12:13:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HomepageBannerClickTest -->
-        <test-method status="FAIL" signature="HomepageStoryBannerClickTest()[pri:0, instance:com.qa.Test.HomePageTest@1ce92674]" name="HomepageStoryBannerClickTest" duration-ms="6331" started-at="2020-09-01T16:48:30Z" finished-at="2020-09-01T16:48:36Z">
+        <test-method status="PASS" signature="HomepageStoryBannerClickTest()[pri:0, instance:com.qa.Test.HomePageTest@2f686d1f]" name="HomepageStoryBannerClickTest" duration-ms="9446" started-at="2020-09-02T12:13:57Z" finished-at="2020-09-02T12:14:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomepageStoryBannerClickTest -->
+        <test-method status="PASS" signature="ValidateFollowOurStorySliderClickTest()[pri:0, instance:com.qa.Test.HomePageTest@2f686d1f]" name="ValidateFollowOurStorySliderClickTest" duration-ms="11" started-at="2020-09-02T12:14:06Z" finished-at="2020-09-02T12:14:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateFollowOurStorySliderClickTest -->
+        <test-method status="PASS" signature="SetUpEnd()[pri:0, instance:com.qa.Test.HomePageTest@2f686d1f]" name="SetUpEnd" is-config="true" duration-ms="1197" started-at="2020-09-02T12:14:06Z" finished-at="2020-09-02T12:14:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUpEnd -->
+      </class> <!-- com.qa.Test.HomePageTest -->
+      <class name="com.qa.Test.ExternalJobSearchTest">
+        <test-method status="PASS" signature="SetUpStart()[pri:0, instance:com.qa.Test.ExternalJobSearchTest@3fee9989]" name="SetUpStart" is-config="true" duration-ms="24233" started-at="2020-09-02T12:19:55Z" finished-at="2020-09-02T12:20:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUpStart -->
+        <test-method status="FAIL" signature="SearchJobsWithValidData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.Test.ExternalJobSearchTest@3fee9989]" name="SearchJobsWithValidData" duration-ms="29335" started-at="2020-09-02T12:20:19Z" data-provider="getExcelData" finished-at="2020-09-02T12:20:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pharmacy]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[waitrose]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1 mile]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Pharmacy]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Pharmacist]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Full-time]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Permanent]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[127570BR]]>
+              </value>
+            </param>
+          </params>
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
-              <![CDATA[unknown error: Element <span class="bul bul-1"></span> is not clickable at point (137, 591). Other element would receive the click: <span tabindex="0" class="ui-slider-handle ui-corner-all ui-state-default ui-state-focus" style="left: 0%;"></span>
+              <![CDATA[unknown error: Element <li data-value="..." class="option">Pharmacist</li> is not clickable at point (219, 572). Other element would receive the click: <div class="search-box">...</div>
   (Session info: chrome=84.0.4147.135)
   (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
 System info: host: 'SWLL124', ip: '192.168.1.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\Test\AppData\Local\Temp\scoped_dir4764_30496}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=84.0.4147.135, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: ddcd0a6aa09ed3f0674dcfe4c9e19d50]]>
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\Test\AppData\Local\Temp\scoped_dir9184_32436}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=84.0.4147.135, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: c2ae100c8e3a6802849c4bbbb29fdb51]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Element <span class="bul bul-1"></span> is not clickable at point (137, 591). Other element would receive the click: <span tabindex="0" class="ui-slider-handle ui-corner-all ui-state-default ui-state-focus" style="left: 0%;"></span>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Element <li data-value="..." class="option">Pharmacist</li> is not clickable at point (219, 572). Other element would receive the click: <div class="search-box">...</div>
   (Session info: chrome=84.0.4147.135)
   (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
 System info: host: 'SWLL124', ip: '192.168.1.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\Test\AppData\Local\Temp\scoped_dir4764_30496}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=84.0.4147.135, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: ddcd0a6aa09ed3f0674dcfe4c9e19d50
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\Test\AppData\Local\Temp\scoped_dir9184_32436}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=84.0.4147.135, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: c2ae100c8e3a6802849c4bbbb29fdb51
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -52,14 +112,8 @@ Session ID: ddcd0a6aa09ed3f0674dcfe4c9e19d50
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:275)
 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy10.click(Unknown Source)
-	at com.qa.Pages.HomePage.ValidateOurStoriesSliderClick(HomePage.java:22)
-	at com.qa.Test.HomePageTest.HomepageStoryBannerClickTest(HomePageTest.java:35)
+	at com.qa.Pages.ExternalJobSearch.SearchJobsWithValidData(ExternalJobSearch.java:101)
+	at com.qa.Test.ExternalJobSearchTest.SearchJobsWithValidData(ExternalJobSearchTest.java:61)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -89,82 +143,30 @@ Session ID: ddcd0a6aa09ed3f0674dcfe4c9e19d50
           </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- HomepageStoryBannerClickTest -->
-        <test-method status="PASS" signature="SetUpEnd()[pri:0, instance:com.qa.Test.HomePageTest@1ce92674]" name="SetUpEnd" is-config="true" duration-ms="1" started-at="2020-09-01T16:48:36Z" finished-at="2020-09-01T16:48:36Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SetUpEnd -->
-      </class> <!-- com.qa.Test.HomePageTest -->
-      <class name="com.qa.Test.ExternalJobSearchTest">
-        <test-method status="PASS" signature="SetUpStart()[pri:0, instance:com.qa.Test.ExternalJobSearchTest@f6c48ac]" name="SetUpStart" is-config="true" duration-ms="29826" started-at="2020-09-01T16:48:36Z" finished-at="2020-09-01T16:49:06Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SetUpStart -->
-        <test-method status="FAIL" signature="SearchJobsWithValidData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.Test.ExternalJobSearchTest@f6c48ac]" name="SearchJobsWithValidData" duration-ms="8222" started-at="2020-09-01T16:49:08Z" data-provider="getExcelData" finished-at="2020-09-01T16:49:16Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Pharmacy]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[waitrose]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[1 mile]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Pharmacy]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Pharmacy Support Colleagues]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[Full-time]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[Permanent]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[121117BR]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.ElementNotVisibleException">
+        </test-method> <!-- SearchJobsWithValidData -->
+        <test-method status="FAIL" signature="SearchJobs_With_InvalidData()[pri:0, instance:com.qa.Test.ExternalJobSearchTest@3fee9989]" name="SearchJobs_With_InvalidData" duration-ms="16632" started-at="2020-09-02T12:20:48Z" finished-at="2020-09-02T12:21:05Z">
+          <exception class="org.openqa.selenium.WebDriverException">
             <message>
-              <![CDATA[element not visible
+              <![CDATA[unknown error: Element <span>...</span> is not clickable at point (384, 614). Other element would receive the click: <li data-value="..." class="option">Optometrist</li>
   (Session info: chrome=84.0.4147.135)
   (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
 System info: host: 'SWLL124', ip: '192.168.1.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\Test\AppData\Local\Temp\scoped_dir10016_10494}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=84.0.4147.135, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: bc233e76fc272de2b80cc8933be478cf]]>
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\Test\AppData\Local\Temp\scoped_dir9184_32436}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=84.0.4147.135, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: c2ae100c8e3a6802849c4bbbb29fdb51]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementNotVisibleException: element not visible
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Element <span>...</span> is not clickable at point (384, 614). Other element would receive the click: <li data-value="..." class="option">Optometrist</li>
   (Session info: chrome=84.0.4147.135)
   (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
 System info: host: 'SWLL124', ip: '192.168.1.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\Test\AppData\Local\Temp\scoped_dir10016_10494}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=84.0.4147.135, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: bc233e76fc272de2b80cc8933be478cf
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\Test\AppData\Local\Temp\scoped_dir9184_32436}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=84.0.4147.135, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: c2ae100c8e3a6802849c4bbbb29fdb51
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -179,90 +181,12 @@ Session ID: bc233e76fc272de2b80cc8933be478cf
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:275)
 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
 	at com.sun.proxy.$Proxy10.click(Unknown Source)
-	at com.qa.Test.ExternalJobSearchTest.SearchJobsWithValidData(ExternalJobSearchTest.java:58)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementNotVisibleException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SearchJobsWithValidData -->
-        <test-method status="FAIL" signature="SearchJobs_With_InvalidData()[pri:0, instance:com.qa.Test.ExternalJobSearchTest@f6c48ac]" name="SearchJobs_With_InvalidData" duration-ms="14029" started-at="2020-09-01T16:49:16Z" finished-at="2020-09-01T16:49:30Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='search_text']"}
-  (Session info: chrome=84.0.4147.135)
-  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
-System info: host: 'SWLL124', ip: '192.168.1.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\Test\AppData\Local\Temp\scoped_dir10016_10494}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=84.0.4147.135, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: bc233e76fc272de2b80cc8933be478cf
-*** Element info: {Using=xpath, value=//*[@id='search_text']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='search_text']"}
-  (Session info: chrome=84.0.4147.135)
-  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
-System info: host: 'SWLL124', ip: '192.168.1.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\Test\AppData\Local\Temp\scoped_dir10016_10494}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=84.0.4147.135, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: bc233e76fc272de2b80cc8933be478cf
-*** Element info: {Using=xpath, value=//*[@id='search_text']}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:518)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy10.sendKeys(Unknown Source)
-	at com.qa.Pages.ExternalJobSearch.SearchJobsWithInvalidData(ExternalJobSearch.java:120)
+	at com.qa.Pages.ExternalJobSearch.SearchJobsWithInvalidData(ExternalJobSearch.java:126)
 	at com.qa.Test.ExternalJobSearchTest.SearchJobs_With_InvalidData(ExternalJobSearchTest.java:38)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -290,344 +214,127 @@ Session ID: bc233e76fc272de2b80cc8933be478cf
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchJobs_With_InvalidData -->
-        <test-method status="PASS" signature="SetUpEnd()[pri:0, instance:com.qa.Test.ExternalJobSearchTest@f6c48ac]" name="SetUpEnd" is-config="true" duration-ms="1" started-at="2020-09-01T16:49:30Z" finished-at="2020-09-01T16:49:30Z">
+        <test-method status="PASS" signature="SetUpEnd()[pri:0, instance:com.qa.Test.ExternalJobSearchTest@3fee9989]" name="SetUpEnd" is-config="true" duration-ms="908" started-at="2020-09-02T12:21:05Z" finished-at="2020-09-02T12:21:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUpEnd -->
       </class> <!-- com.qa.Test.ExternalJobSearchTest -->
       <class name="com.qa.Test.EarlyCareersTest">
-        <test-method status="PASS" signature="SetUpStart()[pri:0, instance:com.qa.Test.EarlyCareersTest@59ec2012]" name="SetUpStart" is-config="true" duration-ms="25012" started-at="2020-09-01T16:51:53Z" finished-at="2020-09-01T16:52:18Z">
+        <test-method status="PASS" signature="SetUpStart()[pri:0, instance:com.qa.Test.EarlyCareersTest@6500df86]" name="SetUpStart" is-config="true" duration-ms="32073" started-at="2020-09-02T12:18:21Z" finished-at="2020-09-02T12:18:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUpStart -->
-        <test-method status="PASS" signature="ValidateImageBannerClickTest()[pri:0, instance:com.qa.Test.EarlyCareersTest@59ec2012]" name="ValidateImageBannerClickTest" duration-ms="26667" started-at="2020-09-01T16:52:18Z" finished-at="2020-09-01T16:52:44Z">
+        <test-method status="PASS" signature="ValidateImageBannerClickTest()[pri:0, instance:com.qa.Test.EarlyCareersTest@6500df86]" name="ValidateImageBannerClickTest" duration-ms="30848" started-at="2020-09-02T12:18:53Z" finished-at="2020-09-02T12:19:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateImageBannerClickTest -->
-        <test-method status="FAIL" signature="ValidateLatestJobsSectionClickTest()[pri:0, instance:com.qa.Test.EarlyCareersTest@59ec2012]" name="ValidateLatestJobsSectionClickTest" duration-ms="14039" started-at="2020-09-01T16:52:44Z" finished-at="2020-09-01T16:52:58Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[@title='Explore']"}
-  (Session info: chrome=84.0.4147.135)
-  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
-System info: host: 'SWLL124', ip: '192.168.1.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\Test\AppData\Local\Temp\scoped_dir16628_13384}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=84.0.4147.135, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 7a9f11b3cae953b93471a3f45e5ddbec
-*** Element info: {Using=xpath, value=//a[@title='Explore']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@title='Explore']"}
-  (Session info: chrome=84.0.4147.135)
-  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
-System info: host: 'SWLL124', ip: '192.168.1.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\Test\AppData\Local\Temp\scoped_dir16628_13384}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=84.0.4147.135, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 7a9f11b3cae953b93471a3f45e5ddbec
-*** Element info: {Using=xpath, value=//a[@title='Explore']}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:518)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy10.getLocation(Unknown Source)
-	at com.qa.CommonFunctions.CommonMethods.Mousemove(CommonMethods.java:56)
-	at com.qa.CommonFunctions.UniqueDesignMethods.ViewLatestJobsSelection(UniqueDesignMethods.java:59)
-	at com.qa.Pages.EarlyCareers.ValidateLatestJobsSelection(EarlyCareers.java:27)
-	at com.qa.Test.EarlyCareersTest.ValidateLatestJobsSectionClickTest(EarlyCareersTest.java:38)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        <test-method status="PASS" signature="ValidateLatestJobsSectionClickTest()[pri:0, instance:com.qa.Test.EarlyCareersTest@6500df86]" name="ValidateLatestJobsSectionClickTest" duration-ms="1" started-at="2020-09-02T12:19:24Z" finished-at="2020-09-02T12:19:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateLatestJobsSectionClickTest -->
-        <test-method status="PASS" signature="ValidateLatestJobsRolesSectionClickTest()[pri:0, instance:com.qa.Test.EarlyCareersTest@59ec2012]" name="ValidateLatestJobsRolesSectionClickTest" duration-ms="22697" started-at="2020-09-01T16:52:58Z" finished-at="2020-09-01T16:53:21Z">
+        <test-method status="PASS" signature="ValidateLatestJobsRolesSectionClickTest()[pri:0, instance:com.qa.Test.EarlyCareersTest@6500df86]" name="ValidateLatestJobsRolesSectionClickTest" duration-ms="22733" started-at="2020-09-02T12:19:24Z" finished-at="2020-09-02T12:19:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateLatestJobsRolesSectionClickTest -->
-        <test-method status="PASS" signature="ValidateSingleStorySelectionClickTest()[pri:0, instance:com.qa.Test.EarlyCareersTest@59ec2012]" name="ValidateSingleStorySelectionClickTest" duration-ms="7403" started-at="2020-09-01T16:53:21Z" finished-at="2020-09-01T16:53:28Z">
+        <test-method status="PASS" signature="ValidateTwitIconClickTest()[pri:0, instance:com.qa.Test.EarlyCareersTest@6500df86]" name="ValidateTwitIconClickTest" duration-ms="2" started-at="2020-09-02T12:19:46Z" finished-at="2020-09-02T12:19:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateTwitIconClickTest -->
+        <test-method status="PASS" signature="ValidateSingleStorySelectionClickTest()[pri:0, instance:com.qa.Test.EarlyCareersTest@6500df86]" name="ValidateSingleStorySelectionClickTest" duration-ms="7276" started-at="2020-09-02T12:19:46Z" finished-at="2020-09-02T12:19:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateSingleStorySelectionClickTest -->
-        <test-method status="PASS" signature="SetUpEnd()[pri:0, instance:com.qa.Test.EarlyCareersTest@59ec2012]" name="SetUpEnd" is-config="true" duration-ms="0" started-at="2020-09-01T16:53:28Z" finished-at="2020-09-01T16:53:28Z">
+        <test-method status="PASS" signature="SetUpEnd()[pri:0, instance:com.qa.Test.EarlyCareersTest@6500df86]" name="SetUpEnd" is-config="true" duration-ms="867" started-at="2020-09-02T12:19:54Z" finished-at="2020-09-02T12:19:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUpEnd -->
       </class> <!-- com.qa.Test.EarlyCareersTest -->
       <class name="com.qa.Test.ValidateFooterTest">
-        <test-method status="PASS" signature="SetUpStart()[pri:0, instance:com.qa.Test.ValidateFooterTest@3fee9989]" name="SetUpStart" is-config="true" duration-ms="27457" started-at="2020-09-01T16:58:28Z" finished-at="2020-09-01T16:58:56Z">
+        <test-method status="PASS" signature="SetUpStart()[pri:0, instance:com.qa.Test.ValidateFooterTest@6eebc39e]" name="SetUpStart" is-config="true" duration-ms="24983" started-at="2020-09-02T12:11:54Z" finished-at="2020-09-02T12:12:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUpStart -->
-        <test-method status="PASS" signature="ValidateBootsFooterLinksTest()[pri:0, instance:com.qa.Test.ValidateFooterTest@3fee9989]" name="ValidateBootsFooterLinksTest" duration-ms="56560" started-at="2020-09-01T16:58:56Z" finished-at="2020-09-01T16:59:52Z">
+        <test-method status="PASS" signature="ValidateBootsFooterLinksTest()[pri:0, instance:com.qa.Test.ValidateFooterTest@6eebc39e]" name="ValidateBootsFooterLinksTest" duration-ms="33105" started-at="2020-09-02T12:12:19Z" finished-at="2020-09-02T12:12:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateBootsFooterLinksTest -->
-        <test-method status="PASS" signature="ValidateBootsFooterSocialMediaLinksTest()[pri:0, instance:com.qa.Test.ValidateFooterTest@3fee9989]" name="ValidateBootsFooterSocialMediaLinksTest" duration-ms="59592" started-at="2020-09-01T16:59:52Z" finished-at="2020-09-01T17:00:52Z">
+        <test-method status="PASS" signature="ValidateBootsFooterSocialMediaLinksTest()[pri:0, instance:com.qa.Test.ValidateFooterTest@6eebc39e]" name="ValidateBootsFooterSocialMediaLinksTest" duration-ms="25899" started-at="2020-09-02T12:12:52Z" finished-at="2020-09-02T12:13:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateBootsFooterSocialMediaLinksTest -->
-        <test-method status="PASS" signature="SetUpEnd()[pri:0, instance:com.qa.Test.ValidateFooterTest@3fee9989]" name="SetUpEnd" is-config="true" duration-ms="19993" started-at="2020-09-01T17:00:52Z" finished-at="2020-09-01T17:01:12Z">
+        <test-method status="PASS" signature="SetUpEnd()[pri:0, instance:com.qa.Test.ValidateFooterTest@6eebc39e]" name="SetUpEnd" is-config="true" duration-ms="913" started-at="2020-09-02T12:13:18Z" finished-at="2020-09-02T12:13:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUpEnd -->
       </class> <!-- com.qa.Test.ValidateFooterTest -->
       <class name="com.qa.Test.ValidateHeaderTest">
-        <test-method status="PASS" signature="SetUpStart()[pri:0, instance:com.qa.Test.ValidateHeaderTest@6500df86]" name="SetUpStart" is-config="true" duration-ms="48177" started-at="2020-09-01T16:55:46Z" finished-at="2020-09-01T16:56:34Z">
+        <test-method status="PASS" signature="SetUpStart()[pri:0, instance:com.qa.Test.ValidateHeaderTest@1ce92674]" name="SetUpStart" is-config="true" duration-ms="27280" started-at="2020-09-02T12:09:37Z" finished-at="2020-09-02T12:10:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUpStart -->
-        <test-method status="PASS" signature="ValidateBootsLogoTest()[pri:0, instance:com.qa.Test.ValidateHeaderTest@6500df86]" name="ValidateBootsLogoTest" duration-ms="7686" started-at="2020-09-01T16:56:34Z" finished-at="2020-09-01T16:56:42Z">
+        <test-method status="PASS" signature="ValidateBootsLogoTest()[pri:0, instance:com.qa.Test.ValidateHeaderTest@1ce92674]" name="ValidateBootsLogoTest" duration-ms="7483" started-at="2020-09-02T12:10:05Z" finished-at="2020-09-02T12:10:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateBootsLogoTest -->
-        <test-method status="PASS" signature="ValidateBootsMenuBarTest()[pri:0, instance:com.qa.Test.ValidateHeaderTest@6500df86]" name="ValidateBootsMenuBarTest" duration-ms="90419" started-at="2020-09-01T16:56:42Z" finished-at="2020-09-01T16:58:13Z">
+        <test-method status="PASS" signature="ValidateBootsMenuBarTest()[pri:0, instance:com.qa.Test.ValidateHeaderTest@1ce92674]" name="ValidateBootsMenuBarTest" duration-ms="39855" started-at="2020-09-02T12:10:12Z" finished-at="2020-09-02T12:10:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateBootsMenuBarTest -->
-        <test-method status="PASS" signature="ValidateBootsSearchBarTest()[pri:0, instance:com.qa.Test.ValidateHeaderTest@6500df86]" name="ValidateBootsSearchBarTest" duration-ms="11661" started-at="2020-09-01T16:58:13Z" finished-at="2020-09-01T16:58:24Z">
+        <test-method status="PASS" signature="ValidateBootsSearchBarTest()[pri:0, instance:com.qa.Test.ValidateHeaderTest@1ce92674]" name="ValidateBootsSearchBarTest" duration-ms="11551" started-at="2020-09-02T12:10:52Z" finished-at="2020-09-02T12:11:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateBootsSearchBarTest -->
-        <test-method status="FAIL" signature="ValidateBootsSearchJobsTest()[pri:0, instance:com.qa.Test.ValidateHeaderTest@6500df86]" name="ValidateBootsSearchJobsTest" duration-ms="4042" started-at="2020-09-01T16:58:24Z" finished-at="2020-09-01T16:58:28Z">
-          <exception class="org.openqa.selenium.ElementNotVisibleException">
-            <message>
-              <![CDATA[element not visible
-  (Session info: chrome=84.0.4147.135)
-  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
-System info: host: 'SWLL124', ip: '192.168.1.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\Test\AppData\Local\Temp\scoped_dir2584_8147}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=84.0.4147.135, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 873ac7e96ab7e893b3d55d71639b96b1]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementNotVisibleException: element not visible
-  (Session info: chrome=84.0.4147.135)
-  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
-System info: host: 'SWLL124', ip: '192.168.1.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\Test\AppData\Local\Temp\scoped_dir2584_8147}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=84.0.4147.135, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 873ac7e96ab7e893b3d55d71639b96b1
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:275)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
-	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy10.click(Unknown Source)
-	at com.qa.CommonFunctions.ValidateHeader.validateBootsSearchJobsButtonClick(ValidateHeader.java:85)
-	at com.qa.Test.ValidateHeaderTest.ValidateBootsSearchJobsTest(ValidateHeaderTest.java:49)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementNotVisibleException -->
+        <test-method status="PASS" signature="ValidateBootsSearchJobsTest()[pri:0, instance:com.qa.Test.ValidateHeaderTest@1ce92674]" name="ValidateBootsSearchJobsTest" duration-ms="49368" started-at="2020-09-02T12:11:04Z" finished-at="2020-09-02T12:11:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateBootsSearchJobsTest -->
-        <test-method status="PASS" signature="SetUpEnd()[pri:0, instance:com.qa.Test.ValidateHeaderTest@6500df86]" name="SetUpEnd" is-config="true" duration-ms="0" started-at="2020-09-01T16:58:28Z" finished-at="2020-09-01T16:58:28Z">
+        <test-method status="PASS" signature="SetUpEnd()[pri:0, instance:com.qa.Test.ValidateHeaderTest@1ce92674]" name="SetUpEnd" is-config="true" duration-ms="995" started-at="2020-09-02T12:11:53Z" finished-at="2020-09-02T12:11:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUpEnd -->
       </class> <!-- com.qa.Test.ValidateHeaderTest -->
-      <class name="com.qa.Test.OurStoriesTest">
-        <test-method status="PASS" signature="SetUpStart()[pri:0, instance:com.qa.Test.OurStoriesTest@402a079c]" name="SetUpStart" is-config="true" duration-ms="34125" started-at="2020-09-01T16:54:32Z" finished-at="2020-09-01T16:55:06Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SetUpStart -->
-        <test-method status="PASS" signature="OurStoriesPageTest()[pri:0, instance:com.qa.Test.OurStoriesTest@402a079c]" name="OurStoriesPageTest" duration-ms="39997" started-at="2020-09-01T16:55:06Z" finished-at="2020-09-01T16:55:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- OurStoriesPageTest -->
-        <test-method status="PASS" signature="SetUpEnd()[pri:0, instance:com.qa.Test.OurStoriesTest@402a079c]" name="SetUpEnd" is-config="true" duration-ms="2" started-at="2020-09-01T16:55:46Z" finished-at="2020-09-01T16:55:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SetUpEnd -->
-      </class> <!-- com.qa.Test.OurStoriesTest -->
       <class name="com.qa.Test.FAQTest">
-        <test-method status="PASS" signature="SetUpStart()[pri:0, instance:com.qa.Test.FAQTest@4cf777e8]" name="SetUpStart" is-config="true" duration-ms="26651" started-at="2020-09-01T16:53:28Z" finished-at="2020-09-01T16:53:55Z">
+        <test-method status="PASS" signature="SetUpStart()[pri:0, instance:com.qa.Test.FAQTest@4cf777e8]" name="SetUpStart" is-config="true" duration-ms="24219" started-at="2020-09-02T12:15:04Z" finished-at="2020-09-02T12:15:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUpStart -->
-        <test-method status="PASS" signature="FAQpageTextAccordionTest()[pri:0, instance:com.qa.Test.FAQTest@4cf777e8]" name="FAQpageTextAccordionTest" duration-ms="37058" started-at="2020-09-01T16:53:55Z" finished-at="2020-09-01T16:54:32Z">
+        <test-method status="PASS" signature="FAQpageTextAccordionTest()[pri:0, instance:com.qa.Test.FAQTest@4cf777e8]" name="FAQpageTextAccordionTest" duration-ms="32131" started-at="2020-09-02T12:15:29Z" finished-at="2020-09-02T12:16:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FAQpageTextAccordionTest -->
-        <test-method status="PASS" signature="SetUpEnd()[pri:0, instance:com.qa.Test.FAQTest@4cf777e8]" name="SetUpEnd" is-config="true" duration-ms="0" started-at="2020-09-01T16:54:32Z" finished-at="2020-09-01T16:54:32Z">
+        <test-method status="PASS" signature="SetUpEnd()[pri:0, instance:com.qa.Test.FAQTest@4cf777e8]" name="SetUpEnd" is-config="true" duration-ms="806" started-at="2020-09-02T12:16:01Z" finished-at="2020-09-02T12:16:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUpEnd -->
       </class> <!-- com.qa.Test.FAQTest -->
-      <class name="com.qa.Test.PharmacistPageTest">
-        <test-method status="PASS" signature="SetUpStart()[pri:0, instance:com.qa.Test.PharmacistPageTest@2f686d1f]" name="SetUpStart" is-config="true" duration-ms="27031" started-at="2020-09-01T16:49:30Z" finished-at="2020-09-01T16:49:57Z">
+      <class name="com.qa.Test.OurStoriesTest">
+        <test-method status="PASS" signature="SetUpStart()[pri:0, instance:com.qa.Test.OurStoriesTest@59ec2012]" name="SetUpStart" is-config="true" duration-ms="24468" started-at="2020-09-02T12:14:07Z" finished-at="2020-09-02T12:14:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUpStart -->
-        <test-method status="FAIL" signature="AllLocationsFunctionalityTest()[pri:0, instance:com.qa.Test.PharmacistPageTest@2f686d1f]" name="AllLocationsFunctionalityTest" duration-ms="83030" started-at="2020-09-01T16:49:57Z" finished-at="2020-09-01T16:51:20Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@title='View jobs']"}
-  (Session info: chrome=84.0.4147.135)
-  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
-System info: host: 'SWLL124', ip: '192.168.1.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\Test\AppData\Local\Temp\scoped_dir19324_28496}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=84.0.4147.135, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 87ad3dcfb3da81c2a176c5424209a1e6
-*** Element info: {Using=xpath, value=//div[@title='View jobs']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@title='View jobs']"}
-  (Session info: chrome=84.0.4147.135)
-  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
-System info: host: 'SWLL124', ip: '192.168.1.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\Test\AppData\Local\Temp\scoped_dir19324_28496}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=84.0.4147.135, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 87ad3dcfb3da81c2a176c5424209a1e6
-*** Element info: {Using=xpath, value=//div[@title='View jobs']}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:518)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy10.getLocation(Unknown Source)
-	at com.qa.CommonFunctions.CommonMethods.Mousemove(CommonMethods.java:56)
-	at com.qa.Pages.PharmacistPage.ValidateAllLocationsFunctionality(PharmacistPage.java:72)
-	at com.qa.Test.PharmacistPageTest.AllLocationsFunctionalityTest(PharmacistPageTest.java:40)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        <test-method status="PASS" signature="OurStoriesPageTest()[pri:0, instance:com.qa.Test.OurStoriesTest@59ec2012]" name="OurStoriesPageTest" duration-ms="31799" started-at="2020-09-02T12:14:32Z" finished-at="2020-09-02T12:15:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OurStoriesPageTest -->
+        <test-method status="PASS" signature="SetUpEnd()[pri:0, instance:com.qa.Test.OurStoriesTest@59ec2012]" name="SetUpEnd" is-config="true" duration-ms="810" started-at="2020-09-02T12:15:04Z" finished-at="2020-09-02T12:15:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUpEnd -->
+      </class> <!-- com.qa.Test.OurStoriesTest -->
+      <class name="com.qa.Test.PharmacistPageTest">
+        <test-method status="PASS" signature="SetUpStart()[pri:0, instance:com.qa.Test.PharmacistPageTest@402a079c]" name="SetUpStart" is-config="true" duration-ms="24307" started-at="2020-09-02T12:16:02Z" finished-at="2020-09-02T12:16:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUpStart -->
+        <test-method status="PASS" signature="AllLocationsFunctionalityTest()[pri:0, instance:com.qa.Test.PharmacistPageTest@402a079c]" name="AllLocationsFunctionalityTest" duration-ms="80039" started-at="2020-09-02T12:16:26Z" finished-at="2020-09-02T12:17:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AllLocationsFunctionalityTest -->
-        <test-method status="PASS" signature="BookaCallBackFormWithValidDataTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.Test.PharmacistPageTest@2f686d1f]" name="BookaCallBackFormWithValidDataTest" duration-ms="32500" started-at="2020-09-01T16:51:20Z" data-provider="getExcelData" finished-at="2020-09-01T16:51:53Z">
+        <test-method status="PASS" signature="BookaCallBackFormWithValidDataTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.Test.PharmacistPageTest@402a079c]" name="BookaCallBackFormWithValidDataTest" duration-ms="32325" started-at="2020-09-02T12:17:47Z" data-provider="getExcelData" finished-at="2020-09-02T12:18:20Z">
           <params>
             <param index="0">
               <value>
@@ -683,7 +390,7 @@ Session ID: 87ad3dcfb3da81c2a176c5424209a1e6
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BookaCallBackFormWithValidDataTest -->
-        <test-method status="PASS" signature="SetUpEnd()[pri:0, instance:com.qa.Test.PharmacistPageTest@2f686d1f]" name="SetUpEnd" is-config="true" duration-ms="0" started-at="2020-09-01T16:51:53Z" finished-at="2020-09-01T16:51:53Z">
+        <test-method status="PASS" signature="SetUpEnd()[pri:0, instance:com.qa.Test.PharmacistPageTest@402a079c]" name="SetUpEnd" is-config="true" duration-ms="1024" started-at="2020-09-02T12:18:20Z" finished-at="2020-09-02T12:18:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUpEnd -->

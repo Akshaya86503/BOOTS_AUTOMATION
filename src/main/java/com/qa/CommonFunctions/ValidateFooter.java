@@ -16,9 +16,9 @@ public class ValidateFooter extends BasePage
 		CommonMethods.Mousemove(WebElements.buttonAcceptCookies).click();
 		driver.findElement(By.cssSelector("body")).sendKeys(Keys.CONTROL, Keys.END);
 		
-		Thread.sleep(4000);
+		/*Thread.sleep(4000);
 		CommonMethods.Mousemove(WebElements.linkFooterbootsukcom);
-		CommonMethods.NewtabFunction(WebElements.linkFooterbootsukcom);
+		CommonMethods.NewtabFunction(WebElements.linkFooterbootsukcom);*/
 		
 		Thread.sleep(4000);
 		CommonMethods.Mousemove(WebElements.linkFooterBootsCSR);
@@ -40,13 +40,13 @@ public class ValidateFooter extends BasePage
 		CommonMethods.Mousemove(WebElements.linkFooterSitemap);
 		CommonMethods.NewtabFunction(WebElements.linkFooterSitemap);
 		
-		Thread.sleep(4000);
+		/*Thread.sleep(4000);
 		CommonMethods.Mousemove(WebElements.linkFooterPrivacyStatement);
 		CommonMethods.NewtabFunction(WebElements.linkFooterPrivacyStatement);
 		
 		Thread.sleep(4000);
 		CommonMethods.Mousemove(WebElements.linkFooterCookiePolicy);
-		CommonMethods.NewtabFunction(WebElements.linkFooterCookiePolicy);
+		CommonMethods.NewtabFunction(WebElements.linkFooterCookiePolicy);*/
 	}
 	
 	public static void validateBootsFooterSocialMediaLinks() throws InterruptedException, AWTException
@@ -72,7 +72,7 @@ public class ValidateFooter extends BasePage
 		CommonMethods.Mousemove(WebElements.linkFooterSocialFacebook);
 		CommonMethods.NewtabFunction(WebElements.linkFooterSocialFacebook);
 		
-		Thread.sleep(4000);
+		/*Thread.sleep(4000);
 		CommonMethods.Mousemove(WebElements.imgFooterSocialShareIcon).click();
 		
 		Thread.sleep(4000);
@@ -89,7 +89,7 @@ public class ValidateFooter extends BasePage
 		
 		Thread.sleep(4000);
 		CommonMethods.Mousemove(WebElements.linkFooterLinkedIn);
-		CommonMethods.NewtabFunction(WebElements.linkFooterLinkedIn);
+		CommonMethods.NewtabFunction(WebElements.linkFooterLinkedIn);*/
 		
 	}
 	

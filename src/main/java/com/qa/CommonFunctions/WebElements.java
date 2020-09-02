@@ -84,9 +84,18 @@ public class WebElements extends BasePage
 	@FindBy(xpath="//a[text()='Search jobs']")
 	public static WebElement buttonSearchJobs;
 	
+	//Searchjobs button on Header1
+	@FindBy(xpath="/html/body/nav/ul/li[8]/a")
+	public static WebElement buttonSearchJobs1;
+	
 	//Option 1 from search jobs dropdown
 	@FindBy(xpath="//a[@title='I want to work for Boots']")
 	public static WebElement buttonIWantToWorkForBoots;
+	
+	//Option 1 from search jobs dropdown
+	@FindBy(xpath="/html/body/nav/ul/li[8]/div/ul/li[1]/a")
+	public static WebElement buttonIWantToWorkForBoots1;
+	
 	
 	//View all stories button from Carrer areas menu
 	@FindBy(xpath="//a[@href='https://www.boots.jobs/our-stories']")
@@ -280,7 +289,8 @@ public class WebElements extends BasePage
 	public static WebElement txtLocationName;
 	
 	//View jobs button
-	@FindBy(xpath="//div[@title='View jobs']")
+	//@FindBy(xpath="//div[@title='View jobs']")
+	@FindBy(xpath="//div[@class='button navy-blue white-t loc-drop']")
 	public static WebElement buttonViewJobs;
 		
 //  --------------------------------------------------------------------------

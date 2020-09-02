@@ -29,29 +29,29 @@ public static void validateBootsMenuBar() throws InterruptedException, AWTExcept
 	Thread.sleep(4000);
 	CommonMethods.NewtabFunction(WebElements.carrerPharmacy);
 
-	//Career areas - retail
+	/*Career areas - retail
 	Thread.sleep(4000);
-	CommonMethods.NewtabFunction(WebElements.carrerRetail);
+	CommonMethods.NewtabFunction(WebElements.carrerRetail);*/
 	
-	//Career areas - opticians
+	/*Career areas - opticians
 	Thread.sleep(4000);
-	CommonMethods.NewtabFunction(WebElements.carrerOpticians);
+	CommonMethods.NewtabFunction(WebElements.carrerOpticians);*/
 	
-	//Career areas - seasonal - Airport
+	/*Career areas - seasonal - Airport
 	Thread.sleep(4000);
-	CommonMethods.NewtabFunction(WebElements.carrerSeasonalAirport);
+	CommonMethods.NewtabFunction(WebElements.carrerSeasonalAirport);*/
 	
-	//Career areas - ireland
+	/*Career areas - ireland
 	Thread.sleep(4000);
-	CommonMethods.NewtabFunction(WebElements.carrerIreland);
+	CommonMethods.NewtabFunction(WebElements.carrerIreland);*/
 	
-	//Career areas - supply chain
+	/*Career areas - supply chain
 	Thread.sleep(4000);
-	CommonMethods.NewtabFunction(WebElements.carrerSupplyChain);
+	CommonMethods.NewtabFunction(WebElements.carrerSupplyChain);*/
 	
-	//Career areas - support office
+	/*Career areas - support office
 	Thread.sleep(4000);
-	CommonMethods.NewtabFunction(WebElements.carrerSupportOffice);
+	CommonMethods.NewtabFunction(WebElements.carrerSupportOffice);*/
 	
 	//Career areas - view all stories button click
 	Thread.sleep(4000);
@@ -61,9 +61,9 @@ public static void validateBootsMenuBar() throws InterruptedException, AWTExcept
 	Thread.sleep(4000);
 	CommonMethods.NewtabFunction(WebElements.menuEarlyCareer);
 	
-	//Our stories menu
+	/*Our stories menu
 	Thread.sleep(4000);
-	CommonMethods.NewtabFunction(WebElements.menuOurStories);
+	CommonMethods.NewtabFunction(WebElements.menuOurStories);*/
 	
 	//FAQs menu
 	Thread.sleep(4000);
@@ -82,9 +82,9 @@ public static void validateBootsSearchBarWithValidData() throws InterruptedExcep
 public static void validateBootsSearchJobsButtonClick() throws InterruptedException, AWTException
 {
 	Thread.sleep(4000);
-	WebElements.buttonSearchJobs.click();
+	WebElements.buttonSearchJobs1.click();
 	Thread.sleep(4000);
-	CommonMethods.NewtabFunction(WebElements.buttonIWantToWorkForBoots);
+	CommonMethods.NewtabFunction(WebElements.buttonIWantToWorkForBoots1);
 }
 
 }

@@ -29,10 +29,10 @@ public class PharmacistPageTest extends BasePage
 	@DataProvider
 	 public Object[][] getExcelData() throws InvalidFormatException, IOException
 	{
-	 return CommonMethods.ExcelRedaer("C:/Users/arahate/git/BOOTS_AUTOMATION/src/main/java/com/qa/TestData/test1.xlsx", "Sheet2");
+	 return CommonMethods.ExcelRedaer("C:/Users/arahate/git/BOOTS_AUTOMATION/src/main/java/com/qa/TestData/Book a call back.xlsx", "Sheet1");
 	 }
 	
-	@Test(priority=9)
+	@Test(priority=12)
 	public void AllLocationsFunctionalityTest() throws AWTException, InterruptedException
 	{
 	CommonMethods.NavigateToPerticularPageCareerAreas(WebElements.careerPharmacist);
@@ -40,7 +40,7 @@ public class PharmacistPageTest extends BasePage
 	pharmacy.ValidateAllLocationsFunctionality();
 	}
 	
-	@Test(dataProvider = "getExcelData",priority=10)
+	@Test(dataProvider = "getExcelData",priority=13)
 	 public void BookaCallBackFormWithValidDataTest(String FN, String LN, String Email, String Cemail, String Phone, String Cjob, String Prole, String Ploc, String Cbtoday, String Cbtime) throws InterruptedException, AWTException
 	{
 		Thread.sleep(4000);
@@ -54,6 +54,6 @@ public class PharmacistPageTest extends BasePage
 	@AfterClass
 	 public void SetUpEnd()
 	 {
-		
+		driver.quit();
 	 }
 }

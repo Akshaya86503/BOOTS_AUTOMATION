@@ -8,7 +8,7 @@ public class OurStories extends BasePage
 {
 public void ValidateOurStorySection() throws InterruptedException, AWTException
 {
-	for(int i=3;i<9;i++)
+	for(int i=3;i<7;i++)
 	{
 	Thread.sleep(4000);
 	WebElement Storytext = driver.findElement(By.xpath("//div[@class='category-wrapper']/div["+i+"]"));

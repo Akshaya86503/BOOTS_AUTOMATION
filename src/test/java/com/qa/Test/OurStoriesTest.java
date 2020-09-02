@@ -22,7 +22,7 @@ public class OurStoriesTest extends BasePage
 		newwebelemets = new WebElements();
 	}
 	
-	@Test(priority=11)
+	@Test(priority=10)
 	public void OurStoriesPageTest() throws AWTException, InterruptedException
 	{
 		CommonMethods.NavigateToPerticularPage(WebElements.menuOurStories);
@@ -33,6 +33,6 @@ public class OurStoriesTest extends BasePage
 	@AfterClass
 	 public void SetUpEnd()
 	 {
-		 
+		driver.quit();
 	 }
 }
