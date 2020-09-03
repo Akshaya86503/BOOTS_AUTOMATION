@@ -22,7 +22,7 @@ public class FAQTest extends BasePage
 		newwebelemets = new WebElements();
 	}
 	
-	@Test(priority=11)
+	@Test
 	public void FAQpageTextAccordionTest() throws InterruptedException, AWTException
     {
 		CommonMethods.NavigateToPerticularPage(WebElements.menuFAQ);

@@ -3,12 +3,12 @@ package com.qa.CommonFunctions;
 import java.awt.AWTException;
 import java.awt.Robot;
 import java.awt.event.KeyEvent;
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.List;
 import java.util.Properties;
-
 import org.apache.poi.ss.usermodel.DataFormatter;
 import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFRow;
@@ -17,10 +17,14 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.testng.ITestResult;
 
 import com.qa.Base.BasePage;
+import org.openqa.selenium.OutputType;
+import org.apache.commons.io.FileUtils;
 
 public class CommonMethods extends BasePage
 {
@@ -149,7 +153,18 @@ public class CommonMethods extends BasePage
 		CommonMethods.Mousemove(path).click();
 	}
 	
-	
-
+	public static void captureScreenshot(ITestResult result)
+	{	 
+		try 
+		{
+		TakesScreenshot ts=(TakesScreenshot)driver;
+		File source=ts.getScreenshotAs(OutputType.FILE);
+		FileUtils.copyFile(source, new File("./Failed screenshots/"+result.getName()+".png"));
+		} 
+		catch (Exception e)
+		{
+		System.out.println("Exception while taking screenshot "+e.getMessage());
+		}
+	}
 
 }

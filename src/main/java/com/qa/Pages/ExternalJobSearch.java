@@ -84,8 +84,8 @@ JavascriptExecutor jsx = (JavascriptExecutor)driver;
 				PageFactory.initElements(driver, this);
 				}
 			
-			//Action
-			//Testcase1 : Search jobs with valid data
+			
+			//Method to Search jobs with valid data
 			public void SearchJobsWithValidData(String keyword,String Location,String Distance,String BusArea,String FunArea,String JobType,String ConType,String Reference) throws InterruptedException, AWTException
 			{
 				enterkeywordsTextbox.sendKeys(keyword);
@@ -113,7 +113,7 @@ JavascriptExecutor jsx = (JavascriptExecutor)driver;
 	            letssearchCTA.click();
 			}
 			
-			//Testcase2 : Search jobs with invalid data
+			//Method to Search jobs with invalid data
 			public void SearchJobsWithInvalidData() throws InterruptedException, AWTException
 			{
 				Thread.sleep(4000);
@@ -126,6 +126,7 @@ JavascriptExecutor jsx = (JavascriptExecutor)driver;
 		        letssearchCTA.click();
 			}
 			
+			//Method to verify sorting functionality
 			public void ValidateJobsSortingFunctionality() throws InterruptedException, AWTException
 			{
 				driver.navigate().refresh();
@@ -135,6 +136,7 @@ JavascriptExecutor jsx = (JavascriptExecutor)driver;
 				driver.findElement(By.xpath("/html/body/div[4]/main/section/div[2]/div[2]/div[1]/div[1]/ul/li[2]")).click();
 			}
 			
+			//Method to verify pagination functionality
 			public void ValidateJobsPaginationFunctionality() throws InterruptedException, AWTException
 			{
 				driver.navigate().refresh();

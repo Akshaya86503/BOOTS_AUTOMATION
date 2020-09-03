@@ -12,6 +12,7 @@ import com.qa.CommonFunctions.WebElements;
 
 public class PharmacistPage extends BasePage
 {
+	//Method to validate book a call back form submission
 	public void BookaCallBackWithValidData(String FN,String LN,String Email,String Cemail,String Phone,String Cjob,String Prole,String Ploc,String Cbtoday, String Cbtime) throws InterruptedException, AWTException
 	{
 		Thread.sleep(4000);
@@ -38,6 +39,7 @@ public class PharmacistPage extends BasePage
 		
 	}
 	
+	/*Method to validate all locations drop down functionality
 	public void ValidateAllLocationsFunctionalitytest() throws AWTException, InterruptedException
 	{
 		Thread.sleep(4000);
@@ -47,8 +49,9 @@ public class PharmacistPage extends BasePage
 		Thread.sleep(4000);
 		CommonMethods.Mousemove(WebElements.buttonViewJobs);
 		CommonMethods.NewtabFunction(WebElements.buttonViewJobs);
-	}
+	}*/
 	
+	//Method to validate all locations drop down functionality
 	public void ValidateAllLocationsFunctionality() throws InterruptedException, AWTException
 	{
 		CommonMethods.Mousemove(WebElements.drpAllLocations);

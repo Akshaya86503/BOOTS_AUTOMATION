@@ -4,18 +4,21 @@
 <listeners>
 <listener class-name="com.qa.ExtentReport.ExtentReportListener"/>
 </listeners>
-  <test name="Test">
-    <classes>
-     <class name="com.qa.Test.ValidateHeaderTest"/>
-     <class name="com.qa.Test.ValidateFooterTest"/>
-     <class name="com.qa.Test.HomePageTest"/>
-     <class name="com.qa.Test.OurStoriesTest"/>
-     <class name="com.qa.Test.FAQTest"/>
-     <class name="com.qa.Test.PharmacistPageTest"/>
-     <class name="com.qa.Test.EarlyCareersTest"/>
-      <class name="com.qa.Test.ExternalJobSearchTest"/>
-    </classes>
-  </test> 
+<test name="Test">
+<classes>
+
+<class name="com.qa.Test.EarlyCareersTest">
+<methods>
+<include name="ValidateImageBannerClickTest" />
+<include name="ValidateLatestJobsSectionClickTest" />
+<include name="ValidateLatestJobsRolesSectionClickTest" />
+<include name="ValidateTwitIconClickTest" />
+<include name="ValidateSingleStorySelectionClickTest" />
+</methods>
+</class>
+       
+</classes>
+</test> 
 </suite>
 
 

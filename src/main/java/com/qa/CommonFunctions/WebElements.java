@@ -193,15 +193,15 @@ public class WebElements extends BasePage
 	public static WebElement imgSingleStorySelection;
 	
 	//Early carrer twitter links - reply icon 
-	@FindBy(xpath="//a[@href='https://twitter.com/intent/tweet?in_reply_to=1264176786390294529']")
+	@FindBy(xpath="//a[@href='https://twitter.com/intent/tweet?in_reply_to=1286271124041601030']")
 	public static WebElement iconTwitterReply;
 	
 	//Early carrer twitter links - retweet icon 
-	@FindBy(xpath="//a[@href='https://twitter.com/intent/retweet?tweet_id=1264176786390294529']")
+	@FindBy(xpath="//a[@href='https://twitter.com/intent/retweet?tweet_id=1286271124041601030']")
 	public static WebElement iconTwitterRetweet;
 	
 	//Early carrer twitter links - fav icon 
-	@FindBy(xpath="//a[@href='https://twitter.com/intent/favorite?tweet_id=1264176786390294529']")
+	@FindBy(xpath="//a[@href='https://twitter.com/intent/favorite?tweet_id=128627112404160100']")
 	public static WebElement iconTwitterFav;	
 	
 //  -----------------------------------------------------------------------		

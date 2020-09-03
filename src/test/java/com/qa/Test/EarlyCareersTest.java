@@ -1,7 +1,9 @@
 package com.qa.Test;
 import java.awt.AWTException;
 import java.io.FileNotFoundException;
+import org.testng.ITestResult;
 import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import com.qa.Base.BasePage;
@@ -22,7 +24,7 @@ public class EarlyCareersTest extends BasePage
 		newwebelemets = new WebElements();
 	}
 	
-	@Test(priority=14)
+	@Test
 	public void ValidateImageBannerClickTest() throws InterruptedException, AWTException
     {
 		Thread.sleep(4000);
@@ -32,30 +34,39 @@ public class EarlyCareersTest extends BasePage
 		ECarrer.ValidateBannerImageClick();
 	}
 	
-	@Test(priority=15)
+	@Test
 	public void ValidateLatestJobsSectionClickTest() throws InterruptedException, AWTException
     {
 		//ECarrer.ValidateLatestJobsSelection();
     }
 	
-	@Test(priority=16)
+	@Test
 	public void ValidateLatestJobsRolesSectionClickTest() throws InterruptedException, AWTException
     {
 		
 		ECarrer.ValidateLatestJobRolesSelection();
     }
 	
-	@Test(priority=17)
+	@Test
 	public void ValidateTwitIconClickTest() throws InterruptedException, AWTException
     {
-		//ECarrer.ValidateTwitIconSelection();
+		ECarrer.ValidateTwitIconSelection();
     }
 	
-	@Test(priority=18)
+	@Test
 	public void ValidateSingleStorySelectionClickTest() throws InterruptedException, AWTException
     {
 		ECarrer.ValidateSingleStorySelectionClick();
     }
+	
+	@AfterMethod
+	public void tearDown(ITestResult result)
+	{
+	if(ITestResult.FAILURE==result.getStatus())
+	{
+		CommonMethods.captureScreenshot(result);
+	}
+	}
 	
 	@AfterClass
 	 public void SetUpEnd()

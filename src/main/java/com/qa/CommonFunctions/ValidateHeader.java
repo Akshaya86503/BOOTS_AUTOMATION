@@ -5,6 +5,8 @@ import com.qa.Base.BasePage;
 
 public class ValidateHeader extends BasePage
 {
+	
+//Method to validate client logo
 public static void validateBootsLogo() throws InterruptedException, AWTException
 {
 	//Accept cookies
@@ -15,6 +17,7 @@ public static void validateBootsLogo() throws InterruptedException, AWTException
 	
 }
 
+//Method to validate header menu bar
 public static void validateBootsMenuBar() throws InterruptedException, AWTException
 {
 	//1) Home menu
@@ -70,6 +73,7 @@ public static void validateBootsMenuBar() throws InterruptedException, AWTExcept
 	CommonMethods.NewtabFunction(WebElements.menuFAQ);
 }
 
+//Method to validate search bar functionality
 public static void validateBootsSearchBarWithValidData() throws InterruptedException, AWTException
 {
 	Thread.sleep(4000);
@@ -79,6 +83,7 @@ public static void validateBootsSearchBarWithValidData() throws InterruptedExcep
 	WebElements.buttonCloseSearchAuto.click();
 }
 
+//Method to validate search jobs navigation
 public static void validateBootsSearchJobsButtonClick() throws InterruptedException, AWTException
 {
 	Thread.sleep(4000);

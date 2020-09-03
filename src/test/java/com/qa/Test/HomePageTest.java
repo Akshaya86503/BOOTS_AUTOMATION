@@ -21,7 +21,7 @@ public class HomePageTest extends BasePage
 		newwebelemets = new WebElements();
 	}
 	
-	@Test(priority=7)
+	@Test
 	public void HomepageBannerClickTest() throws InterruptedException, AWTException
     {
 	Thread.sleep(4000);
@@ -29,13 +29,13 @@ public class HomePageTest extends BasePage
 	homepage.ValidateHomepageBannerClick();
 	}
 	
-	@Test(priority=8)
+	@Test
 	public void HomepageStoryBannerClickTest() throws InterruptedException, AWTException
     {
 	homepage.ValidateOurStoriesSliderClick();
 	}
 	
-	@Test(priority=9)
+	@Test
 	public void ValidateFollowOurStorySliderClickTest() throws InterruptedException, AWTException
     {
 	//homepage.ValidateFollowOurStorySliderClick();

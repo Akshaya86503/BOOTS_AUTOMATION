@@ -22,7 +22,7 @@ public class OurStoriesTest extends BasePage
 		newwebelemets = new WebElements();
 	}
 	
-	@Test(priority=10)
+	@Test
 	public void OurStoriesPageTest() throws AWTException, InterruptedException
 	{
 		CommonMethods.NavigateToPerticularPage(WebElements.menuOurStories);

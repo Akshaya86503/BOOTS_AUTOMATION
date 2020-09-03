@@ -6,6 +6,8 @@ import org.openqa.selenium.WebElement;
 import com.qa.Base.BasePage;
 public class OurStories extends BasePage
 {
+	
+//Method to validate various stories displayed on page
 public void ValidateOurStorySection() throws InterruptedException, AWTException
 {
 	for(int i=3;i<7;i++)

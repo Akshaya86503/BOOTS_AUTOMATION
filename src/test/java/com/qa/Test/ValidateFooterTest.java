@@ -22,13 +22,13 @@ public class ValidateFooterTest extends BasePage
 		newwebelemets = new WebElements();
 	}
 	
-	@Test(priority=5)
+	@Test
 	 public void ValidateBootsFooterLinksTest() throws InterruptedException, AWTException
 	 {
 	ValidateFooter.validateBootsFooterLinks();
 	 }
 	
-	@Test(priority=6)
+	@Test
 	 public void ValidateBootsFooterSocialMediaLinksTest() throws InterruptedException, AWTException
 	 {
 	ValidateFooter.validateBootsFooterSocialMediaLinks();

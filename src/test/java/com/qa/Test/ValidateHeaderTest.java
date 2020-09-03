@@ -25,25 +25,25 @@ public class ValidateHeaderTest extends BasePage
 		newwebelemets = new WebElements();
 	}
 	
-	@Test(priority=1)
+	@Test
 	public void ValidateBootsLogoTest() throws InterruptedException, AWTException
     {
 	ValidateHeader.validateBootsLogo();
     }
 	
-	@Test(priority=2)
+	@Test
 	public void ValidateBootsMenuBarTest() throws InterruptedException, AWTException
     {
 	ValidateHeader.validateBootsMenuBar();
     }
 	
-	@Test(priority=3)
+	@Test
 	public void ValidateBootsSearchBarTest() throws InterruptedException, AWTException
     {
 		ValidateHeader.validateBootsSearchBarWithValidData();
     }
 	
-	@Test(priority=4)
+	@Test
 	public void ValidateBootsSearchJobsTest() throws InterruptedException, AWTException
     {
 	ValidateHeader.validateBootsSearchJobsButtonClick();

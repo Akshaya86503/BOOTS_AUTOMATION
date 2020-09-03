@@ -9,7 +9,7 @@ import com.qa.Base.BasePage;
 
 public class ValidateFooter extends BasePage
 {
-	
+	//Method to validate footer links
 	public static void validateBootsFooterLinks() throws InterruptedException, AWTException
 	{
 		Thread.sleep(4000);
@@ -49,6 +49,7 @@ public class ValidateFooter extends BasePage
 		CommonMethods.NewtabFunction(WebElements.linkFooterCookiePolicy);*/
 	}
 	
+	//Method to validate footer social media links
 	public static void validateBootsFooterSocialMediaLinks() throws InterruptedException, AWTException
 	{
 		Thread.sleep(4000);
