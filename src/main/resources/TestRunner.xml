@@ -7,6 +7,49 @@
 <test name="Test">
 <classes>
 
+<class name="com.qa.Test.ValidateHeaderTest">
+<methods>
+<include name="ValidateBootsLogoTest" />
+<include name="ValidateBootsMenuBarTest" />
+<include name="ValidateBootsSearchBarTest" />
+<include name="ValidateBootsSearchJobsTest" />
+</methods>
+</class>
+       
+<class name="com.qa.Test.ValidateFooterTest">
+<methods>
+<include name="ValidateBootsFooterLinksTest" />
+<include name="ValidateBootsFooterSocialMediaLinksTest" />
+</methods>
+</class>
+       
+<class name="com.qa.Test.HomePageTest">
+<methods>
+<include name="HomepageBannerClickTest" />
+<include name="HomepageStoryBannerClickTest" />
+<include name="ValidateFollowOurStorySliderClickTest" />
+</methods>
+</class>
+       
+<class name="com.qa.Test.OurStoriesTest">
+<methods>
+<include name="OurStoriesPageTest" />
+</methods>
+</class>       
+       
+<class name="com.qa.Test.FAQTest">
+<methods>
+<include name="FAQpageTextAccordionTest" />
+</methods>
+</class>
+
+<class name="com.qa.Test.PharmacistPageTest">
+<methods>
+<include name="AllLocationsFunctionalityTest" />
+<include name="BookaCallBackFormWithValidDataTest" />
+</methods>
+</class>
+
 <class name="com.qa.Test.EarlyCareersTest">
 <methods>
 <include name="ValidateImageBannerClickTest" />
@@ -14,6 +57,13 @@
 <include name="ValidateLatestJobsRolesSectionClickTest" />
 <include name="ValidateTwitIconClickTest" />
 <include name="ValidateSingleStorySelectionClickTest" />
+</methods>
+</class>
+
+<class name="com.qa.Test.ExternalJobSearchTest">
+<methods>
+<include name="SearchJobsWithValidData" />
+<include name="SearchJobs_With_InvalidData" />
 </methods>
 </class>
        
