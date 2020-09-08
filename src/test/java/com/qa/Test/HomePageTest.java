@@ -1,6 +1,9 @@
 package com.qa.Test;
 import java.awt.AWTException;
 import java.io.FileNotFoundException;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;

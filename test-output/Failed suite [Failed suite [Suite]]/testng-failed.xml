@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Failed suite [Suite]]">
+<suite name="Failed suite [Failed suite [Failed suite [Suite]]]">
   <listeners>
     <listener class-name="com.qa.ExtentReport.ExtentReportListener"/>
   </listeners>
-  <test name="Test(failed)(failed)">
+  <test name="Test(failed)(failed)(failed)">
     <classes>
-      <class name="com.qa.Test.PharmacistPageTest">
-        <methods>
-          <include name="SetUpEnd"/>
-          <include name="SetUpStart"/>
-        </methods>
-      </class> <!-- com.qa.Test.PharmacistPageTest -->
       <class name="com.qa.Test.EarlyCareersTest">
         <methods>
           <include name="SetUpEnd"/>
@@ -21,5 +15,5 @@
         </methods>
       </class> <!-- com.qa.Test.EarlyCareersTest -->
     </classes>
-  </test> <!-- Test(failed)(failed) -->
-</suite> <!-- Failed suite [Failed suite [Suite]] -->
+  </test> <!-- Test(failed)(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Failed suite [Suite]]] -->

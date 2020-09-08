@@ -1,43 +1,170 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="2" total="2" passed="0">
+<testng-results skipped="0" failed="2" total="20" passed="18">
   <reporter-output>
   </reporter-output>
-  <suite name="Failed suite [Suite]" duration-ms="59599" started-at="2020-09-03T09:25:14Z" finished-at="2020-09-03T09:26:13Z">
+  <suite name="Suite" duration-ms="797003" started-at="2020-09-08T16:18:19Z" finished-at="2020-09-08T16:31:36Z">
     <groups>
     </groups>
-    <test name="Test(failed)" duration-ms="59599" started-at="2020-09-03T09:25:14Z" finished-at="2020-09-03T09:26:13Z">
-      <class name="com.qa.Test.EarlyCareersTest">
-        <test-method status="PASS" signature="SetUpStart()[pri:0, instance:com.qa.Test.EarlyCareersTest@343f4d3d]" name="SetUpStart" is-config="true" duration-ms="29321" started-at="2020-09-03T14:55:14Z" finished-at="2020-09-03T14:55:43Z">
+    <test name="Test" duration-ms="797003" started-at="2020-09-08T16:18:19Z" finished-at="2020-09-08T16:31:36Z">
+      <class name="com.qa.Test.HomePageTest">
+        <test-method status="PASS" signature="SetUpStart()[pri:0, instance:com.qa.Test.HomePageTest@6fd02e5]" name="SetUpStart" is-config="true" duration-ms="57663" started-at="2020-09-08T21:51:51Z" finished-at="2020-09-08T21:52:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUpStart -->
-        <test-method status="FAIL" signature="ValidateTwitIconClickTest()[pri:0, instance:com.qa.Test.EarlyCareersTest@343f4d3d]" name="ValidateTwitIconClickTest" duration-ms="14126" started-at="2020-09-03T14:55:43Z" finished-at="2020-09-03T14:55:57Z">
+        <test-method status="PASS" signature="HomepageBannerClickTest()[pri:0, instance:com.qa.Test.HomePageTest@6fd02e5]" name="HomepageBannerClickTest" duration-ms="11669" started-at="2020-09-08T21:52:49Z" finished-at="2020-09-08T21:53:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomepageBannerClickTest -->
+        <test-method status="PASS" signature="HomepageStoryBannerClickTest()[pri:0, instance:com.qa.Test.HomePageTest@6fd02e5]" name="HomepageStoryBannerClickTest" duration-ms="9856" started-at="2020-09-08T21:53:01Z" finished-at="2020-09-08T21:53:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomepageStoryBannerClickTest -->
+        <test-method status="PASS" signature="ValidateFollowOurStorySliderClickTest()[pri:0, instance:com.qa.Test.HomePageTest@6fd02e5]" name="ValidateFollowOurStorySliderClickTest" duration-ms="26" started-at="2020-09-08T21:53:11Z" finished-at="2020-09-08T21:53:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateFollowOurStorySliderClickTest -->
+        <test-method status="PASS" signature="SetUpEnd()[pri:0, instance:com.qa.Test.HomePageTest@6fd02e5]" name="SetUpEnd" is-config="true" duration-ms="1" started-at="2020-09-08T21:53:11Z" finished-at="2020-09-08T21:53:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUpEnd -->
+      </class> <!-- com.qa.Test.HomePageTest -->
+      <class name="com.qa.Test.ExternalJobSearchTest">
+        <test-method status="PASS" signature="SetUpStart()[pri:0, instance:com.qa.Test.ExternalJobSearchTest@1ce92674]" name="SetUpStart" is-config="true" duration-ms="29460" started-at="2020-09-08T21:59:54Z" finished-at="2020-09-08T22:00:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUpStart -->
+        <test-method status="PASS" signature="SearchJobsWithValidData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.Test.ExternalJobSearchTest@1ce92674]" name="SearchJobsWithValidData" duration-ms="55743" started-at="2020-09-08T22:00:23Z" data-provider="getExcelData" finished-at="2020-09-08T22:01:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pharmacy]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[waitrose]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1 mile]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Pharmacy]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Optometrist]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Full-time]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Permanent]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[127570BR]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchJobsWithValidData -->
+        <test-method status="PASS" signature="SearchJobs_With_InvalidData()[pri:0, instance:com.qa.Test.ExternalJobSearchTest@1ce92674]" name="SearchJobs_With_InvalidData" duration-ms="16952" started-at="2020-09-08T22:01:19Z" finished-at="2020-09-08T22:01:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchJobs_With_InvalidData -->
+        <test-method status="PASS" signature="SetUpEnd()[pri:0, instance:com.qa.Test.ExternalJobSearchTest@1ce92674]" name="SetUpEnd" is-config="true" duration-ms="1" started-at="2020-09-08T22:01:36Z" finished-at="2020-09-08T22:01:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUpEnd -->
+      </class> <!-- com.qa.Test.ExternalJobSearchTest -->
+      <class name="com.qa.Test.EarlyCareersTest">
+        <test-method status="PASS" signature="SetUpStart()[pri:0, instance:com.qa.Test.EarlyCareersTest@5700d6b1]" name="SetUpStart" is-config="true" duration-ms="28518" started-at="2020-09-08T21:57:57Z" finished-at="2020-09-08T21:58:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUpStart -->
+        <test-method status="PASS" signature="ValidateImageBannerClickTest()[pri:0, instance:com.qa.Test.EarlyCareersTest@5700d6b1]" name="ValidateImageBannerClickTest" duration-ms="28370" started-at="2020-09-08T21:58:25Z" finished-at="2020-09-08T21:58:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateImageBannerClickTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.Test.EarlyCareersTest@5700d6b1]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-09-08T21:58:54Z" finished-at="2020-09-08T21:58:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ValidateImageBannerClickTest status=SUCCESS method=EarlyCareersTest.ValidateImageBannerClickTest()[pri:0, instance:com.qa.Test.EarlyCareersTest@5700d6b1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="ValidateLatestJobsSectionClickTest()[pri:0, instance:com.qa.Test.EarlyCareersTest@5700d6b1]" name="ValidateLatestJobsSectionClickTest" duration-ms="1" started-at="2020-09-08T21:58:54Z" finished-at="2020-09-08T21:58:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateLatestJobsSectionClickTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.Test.EarlyCareersTest@5700d6b1]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-09-08T21:58:54Z" finished-at="2020-09-08T21:58:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ValidateLatestJobsSectionClickTest status=SUCCESS method=EarlyCareersTest.ValidateLatestJobsSectionClickTest()[pri:0, instance:com.qa.Test.EarlyCareersTest@5700d6b1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="ValidateLatestJobsRolesSectionClickTest()[pri:0, instance:com.qa.Test.EarlyCareersTest@5700d6b1]" name="ValidateLatestJobsRolesSectionClickTest" duration-ms="23114" started-at="2020-09-08T21:58:54Z" finished-at="2020-09-08T21:59:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateLatestJobsRolesSectionClickTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.Test.EarlyCareersTest@5700d6b1]" name="tearDown" is-config="true" duration-ms="3" started-at="2020-09-08T21:59:17Z" finished-at="2020-09-08T21:59:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ValidateLatestJobsRolesSectionClickTest status=SUCCESS method=EarlyCareersTest.ValidateLatestJobsRolesSectionClickTest()[pri:0, instance:com.qa.Test.EarlyCareersTest@5700d6b1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="FAIL" signature="ValidateTwitIconClickTest()[pri:0, instance:com.qa.Test.EarlyCareersTest@5700d6b1]" name="ValidateTwitIconClickTest" duration-ms="28811" started-at="2020-09-08T21:59:17Z" finished-at="2020-09-08T21:59:46Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[@href='https://twitter.com/intent/tweet?in_reply_to=1286271124041601030']"}
-  (Session info: chrome=84.0.4147.135)
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[@href='https://twitter.com/intent/favorite?tweet_id=128627112404160100']"}
+  (Session info: chrome=85.0.4183.83)
   (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
-System info: host: 'SWLL124', ip: '192.168.1.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+System info: host: 'SWLL124', ip: '192.168.1.204', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\Test\AppData\Local\Temp\scoped_dir21336_22960}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=84.0.4147.135, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 2e92e4937bb0b13379e653f380a08181
-*** Element info: {Using=xpath, value=//a[@href='https://twitter.com/intent/tweet?in_reply_to=1286271124041601030']}]]>
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\Test\AppData\Local\Temp\scoped_dir30648_59}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=85.0.4183.83, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 0faab75c951185826ef8b3f9cc730be9
+*** Element info: {Using=xpath, value=//a[@href='https://twitter.com/intent/favorite?tweet_id=128627112404160100']}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@href='https://twitter.com/intent/tweet?in_reply_to=1286271124041601030']"}
-  (Session info: chrome=84.0.4147.135)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@href='https://twitter.com/intent/favorite?tweet_id=128627112404160100']"}
+  (Session info: chrome=85.0.4183.83)
   (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
-System info: host: 'SWLL124', ip: '192.168.1.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+System info: host: 'SWLL124', ip: '192.168.1.204', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\Test\AppData\Local\Temp\scoped_dir21336_22960}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=84.0.4147.135, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 2e92e4937bb0b13379e653f380a08181
-*** Element info: {Using=xpath, value=//a[@href='https://twitter.com/intent/tweet?in_reply_to=1286271124041601030']}
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\Test\AppData\Local\Temp\scoped_dir30648_59}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=85.0.4183.83, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 0faab75c951185826ef8b3f9cc730be9
+*** Element info: {Using=xpath, value=//a[@href='https://twitter.com/intent/favorite?tweet_id=128627112404160100']}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -56,11 +183,11 @@ Session ID: 2e92e4937bb0b13379e653f380a08181
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy10.getLocation(Unknown Source)
+	at com.sun.proxy.$Proxy11.getLocation(Unknown Source)
 	at com.qa.CommonFunctions.CommonMethods.Mousemove(CommonMethods.java:60)
-	at com.qa.CommonFunctions.UniqueDesignMethods.TwitIconsClick(UniqueDesignMethods.java:32)
+	at com.qa.CommonFunctions.UniqueDesignMethods.TwitIconsClick(UniqueDesignMethods.java:38)
 	at com.qa.Pages.EarlyCareers.ValidateTwitIconSelection(EarlyCareers.java:36)
-	at com.qa.Test.EarlyCareersTest.ValidateTwitIconClickTest(EarlyCareersTest.java:53)
+	at com.qa.Test.EarlyCareersTest.ValidateTwitIconClickTest(EarlyCareersTest.java:54)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -91,44 +218,193 @@ Session ID: 2e92e4937bb0b13379e653f380a08181
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateTwitIconClickTest -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.Test.EarlyCareersTest@343f4d3d]" name="tearDown" is-config="true" duration-ms="974" started-at="2020-09-03T14:55:57Z" finished-at="2020-09-03T14:55:58Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.Test.EarlyCareersTest@5700d6b1]" name="tearDown" is-config="true" duration-ms="798" started-at="2020-09-08T21:59:46Z" finished-at="2020-09-08T21:59:47Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ValidateTwitIconClickTest status=FAILURE method=EarlyCareersTest.ValidateTwitIconClickTest()[pri:0, instance:com.qa.Test.EarlyCareersTest@343f4d3d] output={null}]]]>
+                <![CDATA[[TestResult name=ValidateTwitIconClickTest status=FAILURE method=EarlyCareersTest.ValidateTwitIconClickTest()[pri:0, instance:com.qa.Test.EarlyCareersTest@5700d6b1] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="FAIL" signature="ValidateLatestJobsSectionClickTest()[pri:0, instance:com.qa.Test.EarlyCareersTest@343f4d3d]" name="ValidateLatestJobsSectionClickTest" duration-ms="14099" started-at="2020-09-03T14:55:58Z" finished-at="2020-09-03T14:56:12Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method status="PASS" signature="ValidateSingleStorySelectionClickTest()[pri:0, instance:com.qa.Test.EarlyCareersTest@5700d6b1]" name="ValidateSingleStorySelectionClickTest" duration-ms="7323" started-at="2020-09-08T21:59:47Z" finished-at="2020-09-08T21:59:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateSingleStorySelectionClickTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.Test.EarlyCareersTest@5700d6b1]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-09-08T21:59:54Z" finished-at="2020-09-08T21:59:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ValidateSingleStorySelectionClickTest status=SUCCESS method=EarlyCareersTest.ValidateSingleStorySelectionClickTest()[pri:0, instance:com.qa.Test.EarlyCareersTest@5700d6b1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="SetUpEnd()[pri:0, instance:com.qa.Test.EarlyCareersTest@5700d6b1]" name="SetUpEnd" is-config="true" duration-ms="1" started-at="2020-09-08T21:59:54Z" finished-at="2020-09-08T21:59:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUpEnd -->
+      </class> <!-- com.qa.Test.EarlyCareersTest -->
+      <class name="com.qa.Test.ValidateHeaderTest">
+        <test-method status="PASS" signature="SetUpStart()[pri:0, instance:com.qa.Test.ValidateHeaderTest@7085bdee]" name="SetUpStart" is-config="true" duration-ms="47305" started-at="2020-09-08T21:48:19Z" finished-at="2020-09-08T21:49:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUpStart -->
+        <test-method status="PASS" signature="ValidateBootsLogoTest()[pri:0, instance:com.qa.Test.ValidateHeaderTest@7085bdee]" name="ValidateBootsLogoTest" duration-ms="8409" started-at="2020-09-08T21:49:07Z" finished-at="2020-09-08T21:49:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateBootsLogoTest -->
+        <test-method status="PASS" signature="ValidateBootsMenuBarTest()[pri:0, instance:com.qa.Test.ValidateHeaderTest@7085bdee]" name="ValidateBootsMenuBarTest" duration-ms="40416" started-at="2020-09-08T21:49:15Z" finished-at="2020-09-08T21:49:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateBootsMenuBarTest -->
+        <test-method status="PASS" signature="ValidateBootsSearchBarTest()[pri:0, instance:com.qa.Test.ValidateHeaderTest@7085bdee]" name="ValidateBootsSearchBarTest" duration-ms="11994" started-at="2020-09-08T21:49:55Z" finished-at="2020-09-08T21:50:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateBootsSearchBarTest -->
+        <test-method status="PASS" signature="ValidateBootsSearchJobsTest()[pri:0, instance:com.qa.Test.ValidateHeaderTest@7085bdee]" name="ValidateBootsSearchJobsTest" duration-ms="11408" started-at="2020-09-08T21:50:07Z" finished-at="2020-09-08T21:50:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateBootsSearchJobsTest -->
+        <test-method status="PASS" signature="SetUpEnd()[pri:0, instance:com.qa.Test.ValidateHeaderTest@7085bdee]" name="SetUpEnd" is-config="true" duration-ms="0" started-at="2020-09-08T21:50:19Z" finished-at="2020-09-08T21:50:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUpEnd -->
+      </class> <!-- com.qa.Test.ValidateHeaderTest -->
+      <class name="com.qa.Test.ValidateFooterTest">
+        <test-method status="PASS" signature="SetUpStart()[pri:0, instance:com.qa.Test.ValidateFooterTest@57fffcd7]" name="SetUpStart" is-config="true" duration-ms="32770" started-at="2020-09-08T21:50:19Z" finished-at="2020-09-08T21:50:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUpStart -->
+        <test-method status="PASS" signature="ValidateBootsFooterLinksTest()[pri:0, instance:com.qa.Test.ValidateFooterTest@57fffcd7]" name="ValidateBootsFooterLinksTest" duration-ms="33827" started-at="2020-09-08T21:50:52Z" finished-at="2020-09-08T21:51:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateBootsFooterLinksTest -->
+        <test-method status="PASS" signature="ValidateBootsFooterSocialMediaLinksTest()[pri:0, instance:com.qa.Test.ValidateFooterTest@57fffcd7]" name="ValidateBootsFooterSocialMediaLinksTest" duration-ms="26084" started-at="2020-09-08T21:51:25Z" finished-at="2020-09-08T21:51:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateBootsFooterSocialMediaLinksTest -->
+        <test-method status="PASS" signature="SetUpEnd()[pri:0, instance:com.qa.Test.ValidateFooterTest@57fffcd7]" name="SetUpEnd" is-config="true" duration-ms="0" started-at="2020-09-08T21:51:51Z" finished-at="2020-09-08T21:51:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUpEnd -->
+      </class> <!-- com.qa.Test.ValidateFooterTest -->
+      <class name="com.qa.Test.FAQTest">
+        <test-method status="PASS" signature="SetUpStart()[pri:0, instance:com.qa.Test.FAQTest@73ad2d6]" name="SetUpStart" is-config="true" duration-ms="32256" started-at="2020-09-08T21:54:59Z" finished-at="2020-09-08T21:55:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUpStart -->
+        <test-method status="PASS" signature="FAQpageTextAccordionTest()[pri:0, instance:com.qa.Test.FAQTest@73ad2d6]" name="FAQpageTextAccordionTest" duration-ms="32094" started-at="2020-09-08T21:55:31Z" finished-at="2020-09-08T21:56:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FAQpageTextAccordionTest -->
+        <test-method status="PASS" signature="SetUpEnd()[pri:0, instance:com.qa.Test.FAQTest@73ad2d6]" name="SetUpEnd" is-config="true" duration-ms="1" started-at="2020-09-08T21:56:04Z" finished-at="2020-09-08T21:56:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUpEnd -->
+      </class> <!-- com.qa.Test.FAQTest -->
+      <class name="com.qa.Test.OurStoriesTest">
+        <test-method status="PASS" signature="SetUpStart()[pri:0, instance:com.qa.Test.OurStoriesTest@3fee9989]" name="SetUpStart" is-config="true" duration-ms="55255" started-at="2020-09-08T21:53:11Z" finished-at="2020-09-08T21:54:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUpStart -->
+        <test-method status="PASS" signature="OurStoriesPageTest()[pri:0, instance:com.qa.Test.OurStoriesTest@3fee9989]" name="OurStoriesPageTest" duration-ms="53225" started-at="2020-09-08T21:54:06Z" finished-at="2020-09-08T21:54:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OurStoriesPageTest -->
+        <test-method status="PASS" signature="SetUpEnd()[pri:0, instance:com.qa.Test.OurStoriesTest@3fee9989]" name="SetUpEnd" is-config="true" duration-ms="0" started-at="2020-09-08T21:54:59Z" finished-at="2020-09-08T21:54:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUpEnd -->
+      </class> <!-- com.qa.Test.OurStoriesTest -->
+      <class name="com.qa.Test.PharmacistPageTest">
+        <test-method status="PASS" signature="SetUpStart()[pri:0, instance:com.qa.Test.PharmacistPageTest@5f2108b5]" name="SetUpStart" is-config="true" duration-ms="26506" started-at="2020-09-08T21:56:04Z" finished-at="2020-09-08T21:56:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUpStart -->
+        <test-method status="PASS" signature="AllLocationsFunctionalityTest()[pri:0, instance:com.qa.Test.PharmacistPageTest@5f2108b5]" name="AllLocationsFunctionalityTest" duration-ms="79401" started-at="2020-09-08T21:56:30Z" finished-at="2020-09-08T21:57:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AllLocationsFunctionalityTest -->
+        <test-method status="FAIL" signature="BookaCallBackFormWithValidDataTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.Test.PharmacistPageTest@5f2108b5]" name="BookaCallBackFormWithValidDataTest" duration-ms="4234" started-at="2020-09-08T21:57:53Z" data-provider="getExcelData" finished-at="2020-09-08T21:57:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test@mirumagency.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test@mirumagency.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1234567890]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Testing]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Accuracy Checking Technician]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Merseyside & West Midlands]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Monday]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[12pm - 4pm]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementNotVisibleException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[@title='Explore']"}
-  (Session info: chrome=84.0.4147.135)
+              <![CDATA[element not visible
+  (Session info: chrome=85.0.4183.83)
   (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
-System info: host: 'SWLL124', ip: '192.168.1.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+System info: host: 'SWLL124', ip: '192.168.1.204', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\Test\AppData\Local\Temp\scoped_dir21336_22960}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=84.0.4147.135, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 2e92e4937bb0b13379e653f380a08181
-*** Element info: {Using=xpath, value=//a[@title='Explore']}]]>
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\Test\AppData\Local\Temp\scoped_dir13004_3319}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=85.0.4183.83, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d7ef2bbfba50b2c6b2dd1eccb34bde87]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@title='Explore']"}
-  (Session info: chrome=84.0.4147.135)
+              <![CDATA[org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=85.0.4183.83)
   (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
-System info: host: 'SWLL124', ip: '192.168.1.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+System info: host: 'SWLL124', ip: '192.168.1.204', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\Test\AppData\Local\Temp\scoped_dir21336_22960}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=84.0.4147.135, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 2e92e4937bb0b13379e653f380a08181
-*** Element info: {Using=xpath, value=//a[@title='Explore']}
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\Test\AppData\Local\Temp\scoped_dir13004_3319}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=85.0.4183.83, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d7ef2bbfba50b2c6b2dd1eccb34bde87
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -141,17 +417,15 @@ Session ID: 2e92e4937bb0b13379e653f380a08181
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:518)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy10.getLocation(Unknown Source)
-	at com.qa.CommonFunctions.CommonMethods.Mousemove(CommonMethods.java:60)
-	at com.qa.CommonFunctions.UniqueDesignMethods.ViewLatestJobsSelection(UniqueDesignMethods.java:59)
-	at com.qa.Pages.EarlyCareers.ValidateLatestJobsSelection(EarlyCareers.java:24)
-	at com.qa.Test.EarlyCareersTest.ValidateLatestJobsSectionClickTest(EarlyCareersTest.java:40)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:275)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at com.qa.CommonFunctions.CommonMethods.NavigateToPerticularPageCareerAreas(CommonMethods.java:144)
+	at com.qa.Test.PharmacistPageTest.BookaCallBackFormWithValidDataTest(PharmacistPageTest.java:47)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -178,26 +452,15 @@ Session ID: 2e92e4937bb0b13379e653f380a08181
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.ElementNotVisibleException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ValidateLatestJobsSectionClickTest -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.Test.EarlyCareersTest@343f4d3d]" name="tearDown" is-config="true" duration-ms="1026" started-at="2020-09-03T14:56:12Z" finished-at="2020-09-03T14:56:13Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=ValidateLatestJobsSectionClickTest status=FAILURE method=EarlyCareersTest.ValidateLatestJobsSectionClickTest()[pri:0, instance:com.qa.Test.EarlyCareersTest@343f4d3d] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="SetUpEnd()[pri:0, instance:com.qa.Test.EarlyCareersTest@343f4d3d]" name="SetUpEnd" is-config="true" duration-ms="0" started-at="2020-09-03T14:56:13Z" finished-at="2020-09-03T14:56:13Z">
+        </test-method> <!-- BookaCallBackFormWithValidDataTest -->
+        <test-method status="PASS" signature="SetUpEnd()[pri:0, instance:com.qa.Test.PharmacistPageTest@5f2108b5]" name="SetUpEnd" is-config="true" duration-ms="1" started-at="2020-09-08T21:57:57Z" finished-at="2020-09-08T21:57:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUpEnd -->
-      </class> <!-- com.qa.Test.EarlyCareersTest -->
-    </test> <!-- Test(failed) -->
-  </suite> <!-- Failed suite [Suite] -->
+      </class> <!-- com.qa.Test.PharmacistPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

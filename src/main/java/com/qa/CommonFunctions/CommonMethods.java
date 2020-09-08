@@ -124,6 +124,7 @@ public class CommonMethods extends BasePage
 		}
 	}
 	
+	//Method to scroll down to webpage
 	public static void ScrolledDownWebpage() throws InterruptedException
 	{
 		for (int second = 0;; second++) {
@@ -135,6 +136,8 @@ public class CommonMethods extends BasePage
 	}
 	}
 	
+	
+	//Method to navigate to perticular menu
 	public static void NavigateToPerticularPageCareerAreas(WebElement path) throws InterruptedException, AWTException
 	{
 		Thread.sleep(4000);
@@ -145,6 +148,7 @@ public class CommonMethods extends BasePage
 		CommonMethods.Mousemove(path).click();
 	}
 	
+	
 	public static void NavigateToPerticularPage(WebElement path) throws InterruptedException, AWTException
 	{
 		Thread.sleep(4000);
@@ -153,6 +157,7 @@ public class CommonMethods extends BasePage
 		CommonMethods.Mousemove(path).click();
 	}
 	
+	//Method to capture screenshot
 	public static void captureScreenshot(ITestResult result)
 	{	 
 		try 

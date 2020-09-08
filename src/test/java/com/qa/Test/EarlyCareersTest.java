@@ -24,6 +24,7 @@ public class EarlyCareersTest extends BasePage
 		newwebelemets = new WebElements();
 	}
 	
+	
 	@Test
 	public void ValidateImageBannerClickTest() throws InterruptedException, AWTException
     {

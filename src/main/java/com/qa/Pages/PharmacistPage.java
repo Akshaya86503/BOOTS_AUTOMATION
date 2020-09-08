@@ -34,22 +34,9 @@ public class PharmacistPage extends BasePage
         Thread.sleep(4000);
 		WebElements.drpCallBackTime.click();
         driver.findElement(By.xpath("//div[@class='dropdown time open']/ul/li[text()='"+Cbtime+"']")).click();
-       // Thread.sleep(4000);
-		//WebElements.buttonSubmit.click();
-		
+       //WebElements.buttonSubmit.click();
 	}
 	
-	/*Method to validate all locations drop down functionality
-	public void ValidateAllLocationsFunctionalitytest() throws AWTException, InterruptedException
-	{
-		Thread.sleep(4000);
-		CommonMethods.Mousemove(WebElements.drpAllLocations).click();
-		Thread.sleep(4000);
-		CommonMethods.Mousemove(WebElements.txtLocationName).click();
-		Thread.sleep(4000);
-		CommonMethods.Mousemove(WebElements.buttonViewJobs);
-		CommonMethods.NewtabFunction(WebElements.buttonViewJobs);
-	}*/
 	
 	//Method to validate all locations drop down functionality
 	public void ValidateAllLocationsFunctionality() throws InterruptedException, AWTException
