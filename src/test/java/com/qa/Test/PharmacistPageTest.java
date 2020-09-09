@@ -44,8 +44,6 @@ public class PharmacistPageTest extends BasePage
 	@Test(dataProvider = "getExcelData")
 	 public void BookaCallBackFormWithValidDataTest(String FN, String LN, String Email, String Cemail, String Phone, String Cjob, String Prole, String Ploc, String Cbtoday, String Cbtime) throws InterruptedException, AWTException
 	{
-		CommonMethods.NavigateToPerticularPageCareerAreas(WebElements.careerPharmacist);
-		Thread.sleep(4000);
 		CommonMethods.Mousemove(WebElements.buttonBookaCallBack);
 		Thread.sleep(4000);
 		WebElements.buttonBookaCallBack.click();
