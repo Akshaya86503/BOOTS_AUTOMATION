@@ -5,7 +5,6 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.interactions.Actions;
 
 import com.qa.CommonFunctions.CommonMethods;
 
@@ -17,7 +16,7 @@ public class BasePage
 	//Code to access the URL
 		public static void Initialization()
 		{
-			CommonMethods.ReadFile("C:/Users/arahate/git/BOOTS_AUTOMATION/src/main/java/com/qa/Config/Configuration.properties");
+			CommonMethods.ReadFile("D:/Akshaya/General/Other/Selenium Projects/Automated Testing With Selenium/Cucumber_Project/src/main/java/configFile/Config.properties");
 			String browserName = CommonMethods.prop.getProperty("BROWSER");
 			if(browserName.equals("chrome"))
 			{
